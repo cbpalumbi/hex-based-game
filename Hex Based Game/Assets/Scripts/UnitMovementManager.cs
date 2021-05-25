@@ -90,8 +90,7 @@ public class UnitMovementManager : MonoBehaviour
             }
             if(tempPreviewPath.Count > 0 && Input.GetMouseButtonUp(1))
             {
-                Debug.Log("unclicked");
-                
+                //if lifted up on RMB, starts unit movement
                 if(gameManager.SelectedUnit)
                 {
                     gameManager.SelectedUnit.MoveAlongPath(tempPreviewPath);
