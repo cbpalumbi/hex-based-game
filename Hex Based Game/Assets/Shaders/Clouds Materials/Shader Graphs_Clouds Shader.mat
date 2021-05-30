@@ -36,14 +36,14 @@ Material:
     - Base_Scale: 0.04
     - Base_Speed: 4.82
     - Base_Strength: 0.78
-    - Noise_Height: 3.93
+    - Noise_Height: 0.7
     - Noise_Power: 1
-    - Noise_Scale: 0.07
-    - Noise_Speed: 3.64
+    - Noise_Scale: 0.6
+    - Noise_Speed: 1
     - Smoothstep_edge_1: 0
-    - Smoothstep_edge_2: 1
+    - Smoothstep_edge_2: 1.5
     m_Colors:
-    - Color_Peak: {r: 0.1878371, g: 0.17702027, b: 0.735849, a: 0}
+    - Color_Peak: {r: 0.25882354, g: 0, b: 0.22352941, a: 0}
     - Color_Valley: {r: 0.0036934938, g: 0.004171868, b: 0.009433985, a: 0}
     - Noise_Remap: {r: 0, g: 1, b: -1, a: 1}
     - Rotate_Projection: {r: 1, g: 0, b: 0, a: 90}
