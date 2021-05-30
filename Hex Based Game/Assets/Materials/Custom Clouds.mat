@@ -36,7 +36,7 @@ Material:
     - Base_Scale: 0.04
     - Base_Speed: 4.82
     - Base_Strength: 0.78
-    - Noise_Height: 0.7
+    - Noise_Height: 0.15
     - Noise_Power: 1
     - Noise_Scale: 0.6
     - Noise_Speed: 1

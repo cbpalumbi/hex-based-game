@@ -18,7 +18,7 @@ public class HexTileManager : MonoBehaviour
     public Dictionary<Vector2, Hex> hexes;
     private List<GameObject> pathSegments;
     private Vector3 unitHeightOffset; 
-    private Vector3 pathSegmentHeightOffset = new Vector3 (0, -0.45f, 0); //subtracting from unit height for some reason
+    public Vector3 pathSegmentHeightOffset = new Vector3 (0, -0.45f, 0); //subtracting from unit height for some reason
 
     Vector2[,] neighborsOffsetEvenZ  =  { 
                                             { new Vector2 (1, 0 )}, { new Vector2 (0, -1)}, {new Vector2 (-1, -1)}, 
