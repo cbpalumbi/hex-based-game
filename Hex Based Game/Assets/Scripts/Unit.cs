@@ -44,7 +44,7 @@ public class Unit : MonoBehaviour, ISelectable
 
     } 
 
-    public void MoveToDestination(Vector2 destinationIndex) 
+    public void DebugMoveToDestination(Vector2 destinationIndex) 
     {
         if(tileManager.hexes.ContainsKey(destinationIndex)) 
         {
@@ -77,7 +77,7 @@ public class Unit : MonoBehaviour, ISelectable
         }
     }
 
-    public void MoveToDestinationAlongPath(Vector2 destinationIndex)
+    public void DebugMoveToDestinationAlongPath(Vector2 destinationIndex)
     {
         Dictionary<Vector2, Vector2> searchResults = tileManager.Search(currentHexIndex, destinationIndex);
         List<Vector2> path = tileManager.ReconstructPathFromSearch(currentHexIndex, destinationIndex, searchResults);

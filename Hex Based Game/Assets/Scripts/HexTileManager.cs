@@ -8,6 +8,7 @@ public class HexTileManager : MonoBehaviour
     public GameObject hexTilePrefab;
     public GameObject pathSegmentPrefab;
     private GameManagerScript gameManager;
+    private UnitManager unitManager;
     public int mapWidth;
     public int mapHeight;
 
@@ -16,8 +17,7 @@ public class HexTileManager : MonoBehaviour
 
     public Dictionary<Vector2, Hex> hexes;
     private List<GameObject> pathSegments;
-
-    private Vector3 unitHeightOffset = new Vector3 (0, 0.5f, 0); //to sit on board, units must be raised up on y axis
+    private Vector3 unitHeightOffset; 
     private Vector3 pathSegmentHeightOffset = new Vector3 (0, -0.45f, 0); //subtracting from unit height for some reason
 
     Vector2[,] neighborsOffsetEvenZ  =  { 
@@ -33,6 +33,9 @@ public class HexTileManager : MonoBehaviour
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
         pathSegments = new List<GameObject>();
+
+        unitManager = GameObject.Find("UnitManager").GetComponent<UnitManager>();
+        unitHeightOffset = new Vector3 (0, unitManager.unitHeightOffsetFloat, 0);
     }
 
     public void CreateHexTileMap() 

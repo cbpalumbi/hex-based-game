@@ -7,6 +7,7 @@ public class UnitManager : MonoBehaviour
     
     public List<Unit> units;
     public GameObject unitPrefab;
+    public float unitHeightOffsetFloat = 0.25f;  //to sit on board, units must be raised up on y axis
     private GameManagerScript gameManager;
     private HexTileManager tileManager;
     private int uniqueUnitCount = 0;
@@ -93,6 +94,6 @@ public class UnitManager : MonoBehaviour
             return;
         }
 
-        unit.MoveToDestination(destinationIndex);
+        unit.DebugMoveToDestination(destinationIndex);
     }
 }

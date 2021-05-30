@@ -95,7 +95,7 @@ public class GameManagerScript : MonoBehaviour
         }
         else
         {
-            selectedUnit.MoveToDestinationAlongPath(selectedHexIndex);
+            selectedUnit.DebugMoveToDestinationAlongPath(selectedHexIndex);
         }
     }
 }

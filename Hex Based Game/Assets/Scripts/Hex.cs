@@ -31,7 +31,6 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
 
     public void OnMouseEnter() 
     {
-        Debug.Log("Mouse entered hex " + (xIndex, zIndex));
         if(meshRenderer != null) {
             meshRenderer.material = hoverMat;
         }
