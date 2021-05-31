@@ -144,6 +144,8 @@ public class Unit : MonoBehaviour, ISelectable
         globalPathToFollowInWorldPos.Clear();
         //destroys all existing preview path lines
         tileManager.ClearPreviewPath();
+        //remove outline of destination hex, now current hex
+        tileManager.TryGetHexFromIndex(currentHexIndex).TurnOffOutline();
     }
 
     public void OnMouseDown() 

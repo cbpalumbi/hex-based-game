@@ -7,6 +7,7 @@ public class UnitMovementManager : MonoBehaviour
 
     private Vector3 startHexPosRMB; //right mouse button
     private Vector3 currentHexPosRMB;
+    private Vector2 startHexIndex;
     private GameManagerScript gameManager;
     private HexTileManager tileManager;
     private List<Vector2> tempPreviewPath;
@@ -38,9 +39,11 @@ public class UnitMovementManager : MonoBehaviour
                         //Debug.Log("start RMB on hex: " + hit.transform.gameObject.name);
 
                         Hex hitHex = hit.transform.gameObject.GetComponent<Hex>();
-                        Vector2 hitHexIndex = new Vector2(hitHex.xIndex, hitHex.zIndex);
-
-                        tempPreviewPath = tileManager.PreviewPathFromUnitToDestination(gameManager.SelectedUnit, hitHexIndex);
+                        startHexIndex = new Vector2(hitHex.xIndex, hitHex.zIndex);
+                        tempPreviewPath = tileManager.PreviewPathFromUnitToDestination(gameManager.SelectedUnit, startHexIndex);
+                    
+                        //turn on hex outline
+                        hitHex.TurnOnOutline();
                     }
                 }
                 else
@@ -73,8 +76,15 @@ public class UnitMovementManager : MonoBehaviour
 
                             //rerun preview with new target hex
                             tempPreviewPath = tileManager.PreviewPathFromUnitToDestination(gameManager.SelectedUnit, hitHexIndex);
+                            
+                            //turn off previous tile outline
+                            tileManager.TryGetHexFromIndex(startHexIndex).TurnOffOutline();
+                            //turn on new tile outline
+                            hitHex.TurnOnOutline();
                             //set currently previewing destination to be the new target hex instead of the original one we clicked
                             startHexPosRMB = currentHexPosRMB;
+                            //update startHexIndex too
+                            startHexIndex = hitHexIndex;
                         }
                     }
                 }

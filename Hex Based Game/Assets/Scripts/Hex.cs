@@ -21,12 +21,16 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
             occupyingUnit = value;
         }
     }
+    
+    private Transform outlineTransform;
 
     void Start() {
         meshRenderer = GetComponent<MeshRenderer>();
         selectedMat = hoverMat;
         gameManager = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
         uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
+
+        outlineTransform = transform.GetChild(0);
     }
 
     public void OnMouseEnter() 
@@ -93,5 +97,15 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
         {
             meshRenderer.material = highlightMat;
         }
+    }
+
+    public void TurnOnOutline()
+    {
+        outlineTransform.gameObject.SetActive(true);
+    }
+
+    public void TurnOffOutline()
+    {
+        outlineTransform.gameObject.SetActive(false);
     }
 }
