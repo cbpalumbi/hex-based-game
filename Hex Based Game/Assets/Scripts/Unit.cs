@@ -84,11 +84,11 @@ public class Unit : MonoBehaviour, ISelectable
 
         List<Vector3> pathInWorldPos = tileManager.ConvertTilePathToWorldPosPath(path);
 
-        foreach(Vector2 step in path)
-        {
+        // foreach(Vector2 step in path)
+        // {
             
-            tileManager.hexes[step].SetToSelectedMaterial();
-        }
+        //     tileManager.hexes[step].SetToSelectedMaterial();
+        // }
 
         //provides movement system a new destination and activates movement
         TurnOnMovement(pathInWorldPos);

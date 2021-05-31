@@ -222,10 +222,10 @@ public class HexTileManager : MonoBehaviour
 
         List<Vector2> path = ReconstructPathFromSearch(startHex, targetHex, Search(startHex, targetHex));
 
-        foreach(Vector2 hexIndex in path)
-        {
-            hexes[hexIndex].GetComponent<Hex>().SetToSelectedMaterial();
-        }
+        // foreach(Vector2 hexIndex in path)
+        // {
+        //     hexes[hexIndex].GetComponent<Hex>().SetToSelectedMaterial();
+        // }
     }
 
     public void HighlightTile(Vector2 hexIndex)

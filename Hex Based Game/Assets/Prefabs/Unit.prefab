@@ -114,7 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   selectedMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
-  defaultMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
+  defaultMat: {fileID: 2100000, guid: eb5679f8205a63b4083781c27987c9c5, type: 2}
   unitId: 0
   wayPointRadius: 0.01
 --- !u!1 &7380999558722667607

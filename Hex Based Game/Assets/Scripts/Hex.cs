@@ -31,9 +31,9 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
 
     public void OnMouseEnter() 
     {
-        if(meshRenderer != null) {
-            meshRenderer.material = hoverMat;
-        }
+        // if(meshRenderer != null) {
+        //     meshRenderer.material = hoverMat;
+        // }
         uiManager.UpdateHoverText(xIndex, zIndex);
     }
 

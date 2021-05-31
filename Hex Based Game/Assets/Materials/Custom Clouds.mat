@@ -43,8 +43,8 @@ Material:
     - Smoothstep_edge_1: 0
     - Smoothstep_edge_2: 1.5
     m_Colors:
-    - Color_Peak: {r: 0.25882354, g: 0, b: 0.22352941, a: 0}
-    - Color_Valley: {r: 0.0036934938, g: 0.004171868, b: 0.009433985, a: 0}
+    - Color_Peak: {r: 0.33335984, g: 0.23829654, b: 0.8018868, a: 0}
+    - Color_Valley: {r: 0, g: 0, b: 0, a: 0}
     - Noise_Remap: {r: 0, g: 1, b: -1, a: 1}
     - Rotate_Projection: {r: 1, g: 0, b: 0, a: 90}
   m_BuildTextureStacks: []

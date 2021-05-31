@@ -21,8 +21,8 @@ public class UnitManager : MonoBehaviour
 
     public void GenerateTestUnits() 
     {
-        GenerateUnit(new Vector2(3, 2));
-        GenerateUnit(new Vector2(1, 4));
+        GenerateUnit(new Vector2(10, 10));
+        GenerateUnit(new Vector2(8, 8));
     }
 
     public void GenerateUnit(Vector2 hexIndex) 
