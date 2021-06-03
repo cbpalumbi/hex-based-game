@@ -6,7 +6,8 @@ public class UnitManager : MonoBehaviour
 {
     
     public List<Unit> units;
-    public GameObject unitPrefab;
+    public GameObject scoutUnitPrefab;
+    public GameObject engineerUnitPrefab;
     public float unitHeightOffsetFloat = 0.25f;  //to sit on board, units must be raised up on y axis
     private GameManagerScript gameManager;
     private HexTileManager tileManager;
@@ -21,27 +22,46 @@ public class UnitManager : MonoBehaviour
 
     public void GenerateTestUnits() 
     {
-        GenerateUnit(new Vector2(10, 10));
-        GenerateUnit(new Vector2(8, 8));
+        GenerateUnit(UnitType.Scout, new Vector2(10, 10));
+        GenerateUnit(UnitType.Engineer, new Vector2(8, 8));
     }
 
-    public void GenerateUnit(Vector2 hexIndex) 
+    public void GenerateUnit(UnitType unitType, Vector2 hexIndex) 
     {
         if (tileManager.hexes[hexIndex].OccupyingUnit != null)
         {
             Debug.Log("Cannot generate unit because tile is already occupied by another unit");
             return;
         }
-        
-        if (unitPrefab == null) 
-        {
-            Debug.Log("Cannot generate unit from null prefab");
-            return;
-        }
 
         if (hexIndex.x < 0 || hexIndex.x > tileManager.mapWidth || hexIndex.y < 0 || hexIndex.y > tileManager.mapHeight)
         {
             Debug.Log("Cannot generate unit at invalid hex index");
+            return;
+        }
+
+        if (!System.Enum.IsDefined(typeof(UnitType), unitType))
+        {
+            Debug.Log("Cannot generate a unit of invalid unit type");
+            return;
+        }
+
+        GameObject unitPrefab = null;
+
+        switch(unitType)
+        {
+            case UnitType.Engineer:
+                unitPrefab = engineerUnitPrefab;
+            break;
+            case UnitType.Scout:
+            default:
+                unitPrefab = scoutUnitPrefab;
+            break;
+        }
+
+        if (unitPrefab == null) 
+        {
+            Debug.Log("Cannot generate unit from null prefab");
             return;
         }
 
@@ -55,6 +75,7 @@ public class UnitManager : MonoBehaviour
             unitObj.transform.position = worldPos;
 
             Unit unit = unitObj.GetComponent<Unit>();
+
             //sets unit's current hex to location hex
             unit.CurrentHexIndex = hexIndex;
             AssignNewUnitId(unit);
@@ -69,7 +90,6 @@ public class UnitManager : MonoBehaviour
     {
         unit.unitId = uniqueUnitCount;
         uniqueUnitCount++;
-        // Debug.Log("new unit id is " + unit.unitId);
     }
 
     public void DeselectAllUnits() {
@@ -95,5 +115,10 @@ public class UnitManager : MonoBehaviour
         }
 
         unit.DebugMoveToDestination(destinationIndex);
+    }
+
+    public enum UnitType {
+        Scout,
+        Engineer
     }
 }

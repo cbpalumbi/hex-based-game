@@ -14,7 +14,7 @@ public class Unit : MonoBehaviour, ISelectable
     private UnitManager unitManager;
     private HexTileManager tileManager;
     private UIManager uIManager;
-    public int unitId;
+    [HideInInspector] public int unitId;
     private int currentStepInPathIndex = 0;
     private bool shouldMove = false;
     public float wayPointRadius = 0.01f;
