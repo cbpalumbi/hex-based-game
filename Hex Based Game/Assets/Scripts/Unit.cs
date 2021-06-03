@@ -19,6 +19,7 @@ public class Unit : MonoBehaviour, ISelectable
     private bool shouldMove = false;
     public float wayPointRadius = 0.01f;
     private List<Vector3> globalPathToFollowInWorldPos;
+    [HideInInspector] public UnitData unitData;
 
 
     public Vector2 CurrentHexIndex {

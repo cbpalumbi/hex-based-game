@@ -9,5 +9,6 @@ public class EngineerUnitData : UnitData
     void Start()
     {
         tileSpeed = engineerTileMovementSpeed;
+        name = "ENGINEER";
     }
 }

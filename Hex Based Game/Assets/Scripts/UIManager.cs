@@ -39,7 +39,7 @@ public class UIManager : MonoBehaviour
 
     public void UpdateSelectedInfoPanel()
     {
-        selectedInfoName.text = gameManager.SelectedUnit.gameObject.name;
+        selectedInfoName.text = gameManager.SelectedUnit.unitData.name;
     }
 
 }

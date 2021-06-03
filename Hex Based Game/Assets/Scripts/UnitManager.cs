@@ -79,6 +79,10 @@ public class UnitManager : MonoBehaviour
             //sets unit's current hex to location hex
             unit.CurrentHexIndex = hexIndex;
             AssignNewUnitId(unit);
+
+            //set unit reference scripts
+            unit.unitData = unitObj.GetComponent<UnitData>();
+
             //adds unit to units list
             units.Add(unit);
             //sets location's occupying unit to this unit

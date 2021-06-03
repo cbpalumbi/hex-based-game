@@ -10,6 +10,7 @@ public class ScoutUnitData : UnitData
     void Start()
     {
         tileSpeed = scoutTileMovementSpeed;
+        name = "SCOUT";
     }
 
 }

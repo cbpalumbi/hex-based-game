@@ -5,4 +5,5 @@ using UnityEngine;
 public class UnitData : MonoBehaviour
 {
     [HideInInspector] public float tileSpeed;
+    [HideInInspector] public string name;
 }
