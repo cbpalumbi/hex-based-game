@@ -7,12 +7,13 @@ public class Unit : MonoBehaviour, ISelectable
     private Vector2 currentHexIndex;
 
     public float speed;
-    private HexTileManager tileManager;
     private MeshRenderer shadowMeshRenderer;
     public Material selectedMat;
     public Material defaultMat;
     private GameManagerScript gameManager;
     private UnitManager unitManager;
+    private HexTileManager tileManager;
+    private UIManager uIManager;
     public int unitId;
     private int currentStepInPathIndex = 0;
     private bool shouldMove = false;
@@ -32,6 +33,7 @@ public class Unit : MonoBehaviour, ISelectable
         tileManager = GameObject.Find("HexTileManager").GetComponent<HexTileManager>();
         gameManager = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
         unitManager = GameObject.Find("UnitManager").GetComponent<UnitManager>();
+        uIManager = GameObject.Find("UIManager").GetComponent<UIManager>();
 
         if (gameObject.transform.GetChild(0))
         {
@@ -160,7 +162,9 @@ public class Unit : MonoBehaviour, ISelectable
         else
         {
             unitManager.DeselectAllUnits();
+
             gameManager.SelectedUnit = this;
+            uIManager.TurnOnSelectedInfoPanel();
             if(shadowMeshRenderer != null) 
             {
                 shadowMeshRenderer.material = selectedMat;

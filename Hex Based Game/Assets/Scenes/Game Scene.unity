@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 93236890}
   - component: {fileID: 93236889}
   m_Layer: 5
-  m_Name: Name
+  m_Name: SelectedInfoName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1354,6 +1354,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverHexText: {fileID: 2109620625}
   selectedHexText: {fileID: 55363203}
+  selectedInfoPanel: {fileID: 266172028}
+  selectedInfoName: {fileID: 93236889}
 --- !u!4 &890670083
 Transform:
   m_ObjectHideFlags: 0
@@ -1434,7 +1436,7 @@ GameObject:
   - component: {fileID: 1093597671}
   - component: {fileID: 1093597670}
   m_Layer: 5
-  m_Name: SelectedNamePanel
+  m_Name: SelectedInfoNamePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1457,7 +1459,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.1951, y: 50.8371}
+  m_AnchoredPosition: {x: 1.1951294, y: 50.837097}
   m_SizeDelta: {x: -81.4271, y: -66.5809}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1093597670
