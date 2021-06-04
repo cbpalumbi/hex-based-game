@@ -166,6 +166,8 @@ public class Unit : MonoBehaviour, ISelectable
 
             gameManager.SelectedUnit = this;
             uIManager.TurnOnSelectedInfoPanel();
+            uIManager.UpdateSelectedInfoPanel();
+
             if(shadowMeshRenderer != null) 
             {
                 shadowMeshRenderer.material = selectedMat;

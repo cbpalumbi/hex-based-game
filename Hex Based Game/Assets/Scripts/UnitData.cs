@@ -5,5 +5,11 @@ using UnityEngine;
 public class UnitData : MonoBehaviour
 {
     [HideInInspector] public float tileSpeed;
-    [HideInInspector] public string name;
+    [HideInInspector] public string unitName;
+    [HideInInspector] public List<Stat> playerFacingStats;
+
+    void Start()
+    {
+        playerFacingStats = new List<Stat>();
+    }
 }

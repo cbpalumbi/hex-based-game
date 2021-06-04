@@ -9,11 +9,31 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI selectedHexText;
     public GameObject selectedInfoPanel;
     public TextMeshProUGUI selectedInfoName;
+    public GameObject stat1Panel;
+    public TextMeshProUGUI stat1Text;
+    public GameObject stat2Panel;
+    public TextMeshProUGUI stat2Text;
+    public GameObject stat3Panel;
+    public TextMeshProUGUI stat3Text;
+    public GameObject stat4Panel;
+    public TextMeshProUGUI stat4Text;
+    private List<GameObject> statPanels;
+    private List<TextMeshProUGUI> statTexts;
     private GameManagerScript gameManager;
 
     void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
+        statPanels = new List<GameObject>();
+        statPanels.Add(stat1Panel);
+        statPanels.Add(stat2Panel);
+        statPanels.Add(stat3Panel);
+        statPanels.Add(stat4Panel);
+        statTexts = new List<TextMeshProUGUI>();
+        statTexts.Add(stat1Text);
+        statTexts.Add(stat2Text);
+        statTexts.Add(stat3Text);
+        statTexts.Add(stat4Text);
     }
 
     public void UpdateHoverText(float x, float z)
@@ -39,7 +59,36 @@ public class UIManager : MonoBehaviour
 
     public void UpdateSelectedInfoPanel()
     {
-        selectedInfoName.text = gameManager.SelectedUnit.unitData.name;
+        ClearStatText();
+        HideStatPanels();
+
+        UnitData selectedUnitData = gameManager.SelectedUnit.unitData;
+
+        selectedInfoName.text = selectedUnitData.unitName;
+
+        for(int i = 0; i < selectedUnitData.playerFacingStats.Count; i++)
+        {
+            statPanels[i].SetActive(true);
+
+            Stat stat = selectedUnitData.playerFacingStats[i];
+            statTexts[i].text = stat.statName + " : " + stat.statValue;
+        }
+    }
+
+    private void HideStatPanels() 
+    {
+        foreach(GameObject panel in statPanels)
+        {
+            panel.SetActive(false);
+        }
+    }
+
+    private void ClearStatText()
+    {
+        foreach(TextMeshProUGUI textField in statTexts)
+        {
+            textField.text = "";
+        }
     }
 
 }
