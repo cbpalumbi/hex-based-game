@@ -101,6 +101,8 @@ MonoBehaviour:
   zIndex: 0
   defaultMat: {fileID: 2100000, guid: eb5679f8205a63b4083781c27987c9c5, type: 2}
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
+  invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
+  defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 0}
 --- !u!65 &5035051739712009234
@@ -127,6 +129,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2852942606004470864, guid: eee465c52251c9b438a8926ffa346bc1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
     - target: {fileID: 4025264738469855039, guid: eee465c52251c9b438a8926ffa346bc1, type: 3}
       propertyPath: m_RootOrder
       value: 0

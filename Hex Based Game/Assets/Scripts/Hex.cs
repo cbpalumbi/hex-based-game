@@ -8,9 +8,12 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
     public int zIndex;
     public Material defaultMat;
     public Material hoverMat;
+    public Material invalidOutlineMat;
+    public Material defaultOutlineMat;
     private Material selectedMat;
     public Material highlightMat;
     private MeshRenderer meshRenderer;
+    private MeshRenderer outlineMeshRenderer;
     private GameManagerScript gameManager;
     public HexTileManager tileManager;
     private UIManager uiManager;
@@ -26,11 +29,13 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
 
     void Start() {
         meshRenderer = GetComponent<MeshRenderer>();
+        
         selectedMat = hoverMat;
         gameManager = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
         uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
 
         outlineTransform = transform.GetChild(0);
+        outlineMeshRenderer = outlineTransform.gameObject.GetComponent<MeshRenderer>();
     }
 
     public void OnMouseEnter() 
@@ -107,5 +112,12 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
     public void TurnOffOutline()
     {
         outlineTransform.gameObject.SetActive(false);
+        outlineMeshRenderer.material = defaultOutlineMat;
+        Debug.Log("turning off outlines");
+    }
+
+    public void TurnOnInvalidOutline() {
+        outlineTransform.gameObject.SetActive(true);
+        outlineMeshRenderer.material = invalidOutlineMat;
     }
 }

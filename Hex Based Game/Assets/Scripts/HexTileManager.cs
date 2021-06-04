@@ -338,7 +338,9 @@ public class HexTileManager : MonoBehaviour
 
     public List<Vector2> PreviewPathFromUnitToDestination(Unit unit, Vector2 targetHex)
     {
-        return ReconstructPathFromSearch(unit.CurrentHexIndex, targetHex, Search(unit.CurrentHexIndex, targetHex));
+        List<Vector2> pathFromSearch = ReconstructPathFromSearch(unit.CurrentHexIndex, targetHex, Search(unit.CurrentHexIndex, targetHex));
+
+        return pathFromSearch;
     }
 
 }

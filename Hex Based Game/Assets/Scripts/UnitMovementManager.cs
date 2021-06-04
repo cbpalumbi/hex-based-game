@@ -71,20 +71,31 @@ public class UnitMovementManager : MonoBehaviour
                     
                         if(currentHexPosRMB != startHexPosRMB) 
                         {//if we've dragged our RMB to a different hex tile
-                            Hex hitHex = hit.transform.gameObject.GetComponent<Hex>();
-                            Vector2 hitHexIndex = new Vector2(hitHex.xIndex, hitHex.zIndex);
-
-                            //rerun preview with new target hex
-                            tempPreviewPath = tileManager.PreviewPathFromUnitToDestination(gameManager.SelectedUnit, hitHexIndex);
                             
                             //turn off previous tile outline
                             tileManager.TryGetHexFromIndex(startHexIndex).TurnOffOutline();
-                            //turn on new tile outline
-                            hitHex.TurnOnOutline();
+                            
+                            Hex hitHex = hit.transform.gameObject.GetComponent<Hex>();
+                            Vector2 hitHexIndex = new Vector2(hitHex.xIndex, hitHex.zIndex);
+                            
                             //set currently previewing destination to be the new target hex instead of the original one we clicked
                             startHexPosRMB = currentHexPosRMB;
+
                             //update startHexIndex too
                             startHexIndex = hitHexIndex;
+                            
+                            //rerun preview with new target hex
+                            tempPreviewPath = tileManager.PreviewPathFromUnitToDestination(gameManager.SelectedUnit, hitHexIndex);
+                            
+                            if(tempPreviewPath.Count <= gameManager.SelectedUnit.unitData.tileSpeed)
+                            {
+                                //turn on new tile outline
+                                hitHex.TurnOnOutline();
+                            }
+                            else 
+                            {
+                                hitHex.TurnOnInvalidOutline();
+                            }
                         }
                     }
                 }
