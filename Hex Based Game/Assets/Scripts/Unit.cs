@@ -14,10 +14,13 @@ public class Unit : MonoBehaviour, ISelectable
     private UnitManager unitManager;
     private HexTileManager tileManager;
     private UIManager uIManager;
+    public float wayPointRadius = 0.01f;
+    
     [HideInInspector] public int unitId;
     private int currentStepInPathIndex = 0;
     private bool shouldMove = false;
-    public float wayPointRadius = 0.01f;
+    [HideInInspector] public float movementRemaining;
+    
     private List<Vector3> globalPathToFollowInWorldPos;
     [HideInInspector] public UnitData unitData;
 
@@ -36,6 +39,12 @@ public class Unit : MonoBehaviour, ISelectable
         unitManager = GameObject.Find("UnitManager").GetComponent<UnitManager>();
         uIManager = GameObject.Find("UIManager").GetComponent<UIManager>();
 
+        SetupUnit();
+
+    } 
+
+    private void SetupUnit()
+    {
         if (gameObject.transform.GetChild(0))
         {
             shadowMeshRenderer = gameObject.transform.GetChild(0).GetComponent<MeshRenderer>();
@@ -45,7 +54,14 @@ public class Unit : MonoBehaviour, ISelectable
             Debug.Log("Unit has no shadow gameobject");
         }
 
-    } 
+        //set initial movement remaining to movement speed
+        SetMovementSpeedToMax();
+    }
+
+    public void SetMovementSpeedToMax()
+    {
+        movementRemaining = unitData.tileSpeed;
+    }
 
     public void DebugMoveToDestination(Vector2 destinationIndex) 
     {
@@ -118,6 +134,9 @@ public class Unit : MonoBehaviour, ISelectable
         
             if (distance < wayPointRadius) //if reached *current step* destination
             {
+                //decrease movement remaining by one, will replace with tile cost later
+                movementRemaining--;
+
                 //set new destination to next step in path
                 currentStepInPathIndex++; 
 

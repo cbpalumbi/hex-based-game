@@ -11,6 +11,7 @@ public class UnitMovementManager : MonoBehaviour
     private GameManagerScript gameManager;
     private HexTileManager tileManager;
     private List<Vector2> tempPreviewPath;
+    private bool isCurrentlySelectedPathValid;
 
     void Start()
     {
@@ -41,9 +42,21 @@ public class UnitMovementManager : MonoBehaviour
                         Hex hitHex = hit.transform.gameObject.GetComponent<Hex>();
                         startHexIndex = new Vector2(hitHex.xIndex, hitHex.zIndex);
                         tempPreviewPath = tileManager.PreviewPathFromUnitToDestination(gameManager.SelectedUnit, startHexIndex);
-                    
-                        //turn on hex outline
-                        hitHex.TurnOnOutline();
+
+                        //minus one because starting hex is in list
+                        if(tempPreviewPath.Count-1 <= gameManager.SelectedUnit.unitData.tileSpeed)
+                        {
+                            //turn on new tile outline
+                            hitHex.TurnOnOutline();
+
+                            isCurrentlySelectedPathValid = true;
+                        }
+                        else 
+                        {
+                            hitHex.TurnOnInvalidOutline();
+
+                            isCurrentlySelectedPathValid = false;
+                        }
                     }
                 }
                 else
@@ -85,16 +98,21 @@ public class UnitMovementManager : MonoBehaviour
                             startHexIndex = hitHexIndex;
                             
                             //rerun preview with new target hex
-                            tempPreviewPath = tileManager.PreviewPathFromUnitToDestination(gameManager.SelectedUnit, hitHexIndex);
+                            tempPreviewPath = tileManager.PreviewPathFromUnitToDestination(gameManager.SelectedUnit, hitHexIndex);                            
                             
-                            if(tempPreviewPath.Count <= gameManager.SelectedUnit.unitData.tileSpeed)
+                            //minus one because starting hex is in list
+                            if(tempPreviewPath.Count-1 <= gameManager.SelectedUnit.unitData.tileSpeed)
                             {
                                 //turn on new tile outline
                                 hitHex.TurnOnOutline();
+
+                                isCurrentlySelectedPathValid = true;
                             }
                             else 
                             {
                                 hitHex.TurnOnInvalidOutline();
+
+                                isCurrentlySelectedPathValid = false;
                             }
                         }
                     }
@@ -112,11 +130,15 @@ public class UnitMovementManager : MonoBehaviour
             if(tempPreviewPath.Count > 0 && Input.GetMouseButtonUp(1))
             {
                 //if lifted up on RMB, starts unit movement
-                if(gameManager.SelectedUnit)
+                if(isCurrentlySelectedPathValid && gameManager.SelectedUnit)
                 {
                     gameManager.SelectedUnit.MoveAlongPath(tempPreviewPath);
                 }
+
+                //clear lingering UI
                 tempPreviewPath.Clear();
+                tileManager.ClearPreviewPath();
+                tileManager.TryGetHexFromIndex(startHexIndex).TurnOffOutline();
             }
         }
     }

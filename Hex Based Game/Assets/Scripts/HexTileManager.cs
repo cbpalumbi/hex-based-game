@@ -115,6 +115,7 @@ public class HexTileManager : MonoBehaviour
         }
 
         //we've reached the start now, so add the starting hex to the end of the path
+        //one reason to keep this is because it allows the path segements to start at center of current hex
         path.Add(startHex);
 
         //reverse the path, now we're going from startHex to targetHex

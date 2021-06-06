@@ -35,6 +35,11 @@ public class GameManagerScript : MonoBehaviour
         SetupGame();
     }
 
+    private void NextTurn()
+    {
+        //
+    }
+
     public void SetupGame() {
         tileManager.CreateHexTileMap();
         unitManager.GenerateTestUnits();

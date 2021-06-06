@@ -10,5 +10,18 @@ public class EngineerUnitData : UnitData
     {
         tileSpeed = engineerTileMovementSpeed;
         unitName = "ENGINEER";
+
+        SetupEngineer();
+    }
+
+    private void SetupEngineer()
+    {
+        tileSpeed = engineerTileMovementSpeed;
+        unitName = "ENGINEER";
+        List<Stat> stats = new List<Stat>();
+
+        stats.Add(new FloatStat("Movement Speed", engineerTileMovementSpeed));
+        
+        playerFacingStats = stats;
     }
 }

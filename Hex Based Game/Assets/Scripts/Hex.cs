@@ -113,7 +113,6 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
     {
         outlineTransform.gameObject.SetActive(false);
         outlineMeshRenderer.material = defaultOutlineMat;
-        Debug.Log("turning off outlines");
     }
 
     public void TurnOnInvalidOutline() {
