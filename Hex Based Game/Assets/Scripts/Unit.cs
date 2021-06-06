@@ -53,14 +53,11 @@ public class Unit : MonoBehaviour, ISelectable
         {
             Debug.Log("Unit has no shadow gameobject");
         }
-
-        //set initial movement remaining to movement speed
-        SetMovementSpeedToMax();
     }
 
-    public void SetMovementSpeedToMax()
+    public void SetRemainingMovement(float newMvmtRemaining)
     {
-        movementRemaining = unitData.tileSpeed;
+        movementRemaining = newMvmtRemaining;
     }
 
     public void DebugMoveToDestination(Vector2 destinationIndex) 
@@ -134,9 +131,6 @@ public class Unit : MonoBehaviour, ISelectable
         
             if (distance < wayPointRadius) //if reached *current step* destination
             {
-                //decrease movement remaining by one, will replace with tile cost later
-                movementRemaining--;
-
                 //set new destination to next step in path
                 currentStepInPathIndex++; 
 
@@ -172,7 +166,6 @@ public class Unit : MonoBehaviour, ISelectable
 
     public void OnMouseDown() 
     {
-        Debug.Log("Unit clicked");
         if (gameManager.SelectedUnit == this)
         {
             gameManager.SelectedUnit = null;

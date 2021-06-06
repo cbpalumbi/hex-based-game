@@ -8,8 +8,24 @@ public class UnitData : MonoBehaviour
     [HideInInspector] public string unitName;
     [HideInInspector] public List<Stat> playerFacingStats;
 
-    void Start()
+    public void ConstructRemainingMovementStat(float remaining, float max)
     {
-        playerFacingStats = new List<Stat>();
+        StringStat remainingMovementStat = new StringStat("Mvmt Speed", (remaining.ToString() + " / " + max.ToString()));
+        
+        if(playerFacingStats.Count == 0)
+        {
+            playerFacingStats.Add(remainingMovementStat);
+        }
+        else
+        {
+            for(int i = 0; i < playerFacingStats.Count; i++)
+            {
+                if(playerFacingStats[i].statName == "Mvmt Speed")
+                {
+                    playerFacingStats[i] = remainingMovementStat;
+                    break;
+                }
+            }
+        }
     }
 }

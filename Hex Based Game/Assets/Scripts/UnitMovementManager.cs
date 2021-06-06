@@ -10,6 +10,7 @@ public class UnitMovementManager : MonoBehaviour
     private Vector2 startHexIndex;
     private GameManagerScript gameManager;
     private HexTileManager tileManager;
+    private UIManager uiManager;
     private List<Vector2> tempPreviewPath;
     private bool isCurrentlySelectedPathValid;
 
@@ -17,6 +18,7 @@ public class UnitMovementManager : MonoBehaviour
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
         tileManager = GameObject.Find("HexTileManager").GetComponent<HexTileManager>();
+        uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
         tempPreviewPath = new List<Vector2>();
     }
     
@@ -44,7 +46,7 @@ public class UnitMovementManager : MonoBehaviour
                         tempPreviewPath = tileManager.PreviewPathFromUnitToDestination(gameManager.SelectedUnit, startHexIndex);
 
                         //minus one because starting hex is in list
-                        if(tempPreviewPath.Count-1 <= gameManager.SelectedUnit.unitData.tileSpeed)
+                        if(tempPreviewPath.Count-1 <= gameManager.SelectedUnit.movementRemaining)
                         {
                             //turn on new tile outline
                             hitHex.TurnOnOutline();
@@ -101,7 +103,7 @@ public class UnitMovementManager : MonoBehaviour
                             tempPreviewPath = tileManager.PreviewPathFromUnitToDestination(gameManager.SelectedUnit, hitHexIndex);                            
                             
                             //minus one because starting hex is in list
-                            if(tempPreviewPath.Count-1 <= gameManager.SelectedUnit.unitData.tileSpeed)
+                            if(tempPreviewPath.Count-1 <= gameManager.SelectedUnit.movementRemaining)
                             {
                                 //turn on new tile outline
                                 hitHex.TurnOnOutline();
@@ -128,11 +130,18 @@ public class UnitMovementManager : MonoBehaviour
                 }
             }
             if(tempPreviewPath.Count > 0 && Input.GetMouseButtonUp(1))
-            {
-                //if lifted up on RMB, starts unit movement
+            { //if lifted up on RMB, starts unit movement
+                
                 if(isCurrentlySelectedPathValid && gameManager.SelectedUnit)
                 {
-                    gameManager.SelectedUnit.MoveAlongPath(tempPreviewPath);
+                    Unit selectedUnit = gameManager.SelectedUnit;
+                    selectedUnit.MoveAlongPath(tempPreviewPath);
+                    
+                    //update remaining movement
+                    selectedUnit.SetRemainingMovement(selectedUnit.movementRemaining - (tempPreviewPath.Count-1));
+
+                    selectedUnit.unitData.ConstructRemainingMovementStat(selectedUnit.movementRemaining, selectedUnit.unitData.tileSpeed);
+                    uiManager.UpdateSelectedInfoPanel();
                 }
 
                 //clear lingering UI

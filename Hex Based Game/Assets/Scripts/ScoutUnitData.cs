@@ -5,20 +5,26 @@ using UnityEngine;
 public class ScoutUnitData : UnitData
 {
     public float scoutTileMovementSpeed = 5;
+
+    private Unit unitScript;
+
     void Start()
     {
-        SetupScout();
+        Setup();
     }
 
-    private void SetupScout()
+    private void Setup()
     {
-        tileSpeed = scoutTileMovementSpeed;
-        unitName = "SCOUT";
-        List<Stat> stats = new List<Stat>();
+        playerFacingStats = new List<Stat>();
 
-        stats.Add(new FloatStat("Movement Speed", scoutTileMovementSpeed));
-        stats.Add(new FloatStat("stat2", 15.7f));
-        
-        playerFacingStats = stats;
+        tileSpeed = scoutTileMovementSpeed;
+
+        unitName = "SCOUT";
+
+        ConstructRemainingMovementStat(scoutTileMovementSpeed, scoutTileMovementSpeed);
+        playerFacingStats.Add(new FloatStat("stat2", 15.7f));
+
+        unitScript = gameObject.GetComponent<Unit>();
+        unitScript.SetRemainingMovement(tileSpeed);
     }
 }

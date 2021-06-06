@@ -18,7 +18,6 @@ public class MaskedObjClickManager : MonoBehaviour
                 GameObject go = hitInfo.collider.gameObject;
                 if (go.layer == 7) //"Mask" layer
                 {
-                    Debug.Log("hit something masked");
                     if(go.transform.parent.GetComponent<Unit>() != null)
                     {
                         go.transform.parent.GetComponent<Unit>().OnMouseDown();

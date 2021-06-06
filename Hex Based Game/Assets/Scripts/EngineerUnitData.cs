@@ -5,23 +5,24 @@ using UnityEngine;
 public class EngineerUnitData : UnitData
 {
     public float engineerTileMovementSpeed = 5;
+    private Unit unitScript;
 
     void Start()
     {
-        tileSpeed = engineerTileMovementSpeed;
-        unitName = "ENGINEER";
-
-        SetupEngineer();
+        Setup();
     }
 
-    private void SetupEngineer()
+    private void Setup()
     {
         tileSpeed = engineerTileMovementSpeed;
         unitName = "ENGINEER";
         List<Stat> stats = new List<Stat>();
 
-        stats.Add(new FloatStat("Movement Speed", engineerTileMovementSpeed));
+        stats.Add(new FloatStat("Mvmt Speed", engineerTileMovementSpeed));
         
         playerFacingStats = stats;
+
+        unitScript = gameObject.GetComponent<Unit>();
+        unitScript.SetRemainingMovement(tileSpeed);
     }
 }
