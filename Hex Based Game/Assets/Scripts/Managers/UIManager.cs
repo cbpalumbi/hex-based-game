@@ -17,6 +17,7 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI stat3Text;
     public GameObject stat4Panel;
     public TextMeshProUGUI stat4Text;
+    public TextMeshProUGUI turnTaskText;
     private List<GameObject> statPanels;
     private List<TextMeshProUGUI> statTexts;
     private GameManagerScript gameManager;
@@ -61,6 +62,11 @@ public class UIManager : MonoBehaviour
     {
         ClearStatText();
         HideStatPanels();
+
+        if(gameManager.SelectedUnit == null)
+        {
+            return;
+        }
 
         UnitData selectedUnitData = gameManager.SelectedUnit.unitData;
 

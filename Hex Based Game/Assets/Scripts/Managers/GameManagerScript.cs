@@ -11,7 +11,7 @@ public class GameManagerScript : MonoBehaviour
     private UnitManager unitManager;
     private UIManager uiManager;
 
-    [HideInInspector] public Queue<TurnTask> tasks;
+    [HideInInspector] public Queue<TurnTask> turnTasks;
 
     public Vector2 SelectedHexIndex {
         get { return selectedHexIndex; }
@@ -34,26 +34,44 @@ public class GameManagerScript : MonoBehaviour
         tileManager = GameObject.Find("HexTileManager").GetComponent<HexTileManager>();
         unitManager = GameObject.Find("UnitManager").GetComponent<UnitManager>();
         uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
+        
+        turnTasks = new Queue<TurnTask>();
         SetupGame();
-        tasks = new Queue<TurnTask>();
     }
 
-    public void ProcessNextTurn()
+    public void ProcessTurnIndicatorClick()
+    {
+        switch(turnTasks.Dequeue().taskType) 
+        {
+            case TaskType.UnitMovement:
+                //zoom to unit
+                break;
+            case TaskType.NextTurn:
+            default:
+                ProcessNextTurn();
+                break;
+        }
+    }
+
+    private void ProcessNextTurn()
     {
         //progress all player-independent changes
             //reset unit movement speed
             //deposit yields
             //process completed items (eg: research)
+
         //clear list of tasks
-        tasks.Clear();
+        turnTasks.Clear();
+        //re-add 'next turn' task
+        turnTasks.Enqueue(new NextTurnTurnTask());
 
         List<Unit> unitsAwaitingInstruction = unitManager.ProcessAllUnitTurns();
 
         foreach(Unit unit in unitsAwaitingInstruction)
         {
-            tasks.Enqueue(new UnitMovementTurnTask(unit));
+            turnTasks.Enqueue(new UnitMovementTurnTask(unit));
         }
-        Debug.Log("tasks.Count: " + tasks.Count);
+        Debug.Log("tasks.Count: " + turnTasks.Count);
         //generate new queue of tasks
         
         //update all UI
@@ -66,6 +84,9 @@ public class GameManagerScript : MonoBehaviour
 
         selectedHexIndex = new Vector2(-1, -1);
 
+        //add original turn task to go to next turn
+        turnTasks.Enqueue(new NextTurnTurnTask());
+        
         if(activateFogOnPlay)
         {
             RenderSettings.fog = true;

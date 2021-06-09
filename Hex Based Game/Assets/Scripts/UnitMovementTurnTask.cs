@@ -9,5 +9,6 @@ public class UnitMovementTurnTask : TurnTask
     public UnitMovementTurnTask (Unit unitToMove)
     {
         unit = unitToMove;
+        taskType = TaskType.UnitMovement;
     }
 }
