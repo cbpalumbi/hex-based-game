@@ -11,6 +11,8 @@ public class GameManagerScript : MonoBehaviour
     private UnitManager unitManager;
     private UIManager uiManager;
 
+    [HideInInspector] public Queue<TurnTask> tasks;
+
     public Vector2 SelectedHexIndex {
         get { return selectedHexIndex; }
         set {
@@ -33,11 +35,29 @@ public class GameManagerScript : MonoBehaviour
         unitManager = GameObject.Find("UnitManager").GetComponent<UnitManager>();
         uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
         SetupGame();
+        tasks = new Queue<TurnTask>();
     }
 
-    private void NextTurn()
+    public void ProcessNextTurn()
     {
-        //
+        //progress all player-independent changes
+            //reset unit movement speed
+            //deposit yields
+            //process completed items (eg: research)
+        //clear list of tasks
+        tasks.Clear();
+
+        List<Unit> unitsAwaitingInstruction = unitManager.ProcessAllUnitTurns();
+
+        foreach(Unit unit in unitsAwaitingInstruction)
+        {
+            tasks.Enqueue(new UnitMovementTurnTask(unit));
+        }
+        Debug.Log("tasks.Count: " + tasks.Count);
+        //generate new queue of tasks
+        
+        //update all UI
+        uiManager.UpdateSelectedInfoPanel();
     }
 
     public void SetupGame() {

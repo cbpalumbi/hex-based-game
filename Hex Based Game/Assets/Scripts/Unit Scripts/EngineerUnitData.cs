@@ -14,13 +14,14 @@ public class EngineerUnitData : UnitData
 
     private void Setup()
     {
-        tileSpeed = engineerTileMovementSpeed;
-        unitName = "ENGINEER";
-        List<Stat> stats = new List<Stat>();
+        playerFacingStats = new List<Stat>();
 
-        stats.Add(new FloatStat("Mvmt Speed", engineerTileMovementSpeed));
-        
-        playerFacingStats = stats;
+        tileSpeed = engineerTileMovementSpeed;
+
+        unitName = "ENGINEER";
+
+        ConstructRemainingMovementStat(engineerTileMovementSpeed, engineerTileMovementSpeed);
+        playerFacingStats.Add(new StringStat("Engineery-ness", "a lot"));
 
         unitScript = gameObject.GetComponent<Unit>();
         unitScript.SetRemainingMovement(tileSpeed);

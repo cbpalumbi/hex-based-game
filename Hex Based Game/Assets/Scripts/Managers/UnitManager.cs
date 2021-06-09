@@ -12,10 +12,12 @@ public class UnitManager : MonoBehaviour
     private GameManagerScript gameManager;
     private HexTileManager tileManager;
     private int uniqueUnitCount = 0;
+    private List<Unit> unitsAwaitingInstruction;
 
     void Start() 
     {
         units = new List<Unit>();
+        unitsAwaitingInstruction = new List<Unit>();
         gameManager = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
         tileManager = GameObject.Find("HexTileManager").GetComponent<HexTileManager>();
     }
@@ -94,6 +96,20 @@ public class UnitManager : MonoBehaviour
     {
         unit.unitId = uniqueUnitCount;
         uniqueUnitCount++;
+    }
+
+    public List<Unit> ProcessAllUnitTurns() 
+    {
+        unitsAwaitingInstruction.Clear();
+        foreach(Unit unit in units)
+        {
+            if(unit.GetIsTurnTrackingOn())
+            {
+                unit.ProcessTurn();
+                unitsAwaitingInstruction.Add(unit);
+            }
+        }
+        return unitsAwaitingInstruction;
     }
 
     public void DeselectAllUnits() {

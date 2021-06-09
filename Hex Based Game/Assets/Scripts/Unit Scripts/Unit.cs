@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Unit : MonoBehaviour, ISelectable
+public class Unit : MonoBehaviour, ITurnTrackable, ISelectable
 {
     private Vector2 currentHexIndex;
 
@@ -24,6 +24,7 @@ public class Unit : MonoBehaviour, ISelectable
     private List<Vector3> globalPathToFollowInWorldPos;
     [HideInInspector] public UnitData unitData;
 
+    private bool isTurnTrackingOn = true;
 
     public Vector2 CurrentHexIndex {
         get { return currentHexIndex; }
@@ -58,6 +59,17 @@ public class Unit : MonoBehaviour, ISelectable
     public void SetRemainingMovement(float newMvmtRemaining)
     {
         movementRemaining = newMvmtRemaining;
+    }
+
+    public bool GetIsTurnTrackingOn()
+    {
+        return isTurnTrackingOn;
+    }
+
+    public void ProcessTurn()
+    {
+        SetRemainingMovement(unitData.tileSpeed);
+        unitData.ConstructRemainingMovementStat(movementRemaining, unitData.tileSpeed);
     }
 
     public void DebugMoveToDestination(Vector2 destinationIndex) 
