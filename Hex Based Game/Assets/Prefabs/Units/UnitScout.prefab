@@ -117,8 +117,9 @@ MonoBehaviour:
   speed: 5
   selectedMat: {fileID: 2100000, guid: d3e1096403734f046af1bc472731b4ca, type: 2}
   defaultMat: {fileID: 2100000, guid: 87375a3c9d2280548989f33506fe7171, type: 2}
-  unitId: 0
   wayPointRadius: 0.01
+  unitId: 0
+  movementRemaining: 0
   unitData: {fileID: 0}
 --- !u!114 &-786132937625917170
 MonoBehaviour:
@@ -134,9 +135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileSpeed: 0
   unitName: 
-  playerFacingStats: []
   scoutTileMovementSpeed: 3
-  scoutStats: []
 --- !u!1 &7380999558722667607
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,7 +249,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2665961558474276028
 Transform:
   m_ObjectHideFlags: 0

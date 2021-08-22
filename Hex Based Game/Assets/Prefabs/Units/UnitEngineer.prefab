@@ -117,8 +117,10 @@ MonoBehaviour:
   speed: 5
   selectedMat: {fileID: 2100000, guid: d3e1096403734f046af1bc472731b4ca, type: 2}
   defaultMat: {fileID: 2100000, guid: 87375a3c9d2280548989f33506fe7171, type: 2}
-  unitId: 0
   wayPointRadius: 0.01
+  unitId: 0
+  movementRemaining: 0
+  unitData: {fileID: 0}
 --- !u!114 &-8244413601687758363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,6 +133,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fb50115b729c2149a39c25e41c3dd24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tileSpeed: 0
+  unitName: 
+  engineerTileMovementSpeed: 5
 --- !u!1 &7387991819878997389
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,7 +249,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2600438995958588774
 Transform:
   m_ObjectHideFlags: 0
