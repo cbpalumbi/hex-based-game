@@ -46,11 +46,11 @@ public class HexTileManager : MonoBehaviour
                 GameObject tempGameObject = Instantiate(hexTilePrefab);
 
                 if (z % 2 == 0) {
-                    tempGameObject.transform.position = new Vector3(x * tileXOffset, 0, z * tileZOffset);
+                    tempGameObject.transform.position = new Vector3(x * tileXOffset, -0.15f, z * tileZOffset);
                 }
                 else 
                 {
-                    tempGameObject.transform.position = new Vector3(x * tileXOffset + tileXOffset/2, 0, z * tileZOffset);
+                    tempGameObject.transform.position = new Vector3(x * tileXOffset + tileXOffset/2, -0.15f, z * tileZOffset);
                 }
 
                 SetUpTile(tempGameObject, x, z);

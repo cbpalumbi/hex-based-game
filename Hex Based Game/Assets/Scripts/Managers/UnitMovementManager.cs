@@ -30,14 +30,17 @@ public class UnitMovementManager : MonoBehaviour
         { //only check if there is a selected unit
             if(Input.GetMouseButtonDown(1)) //initial click
             {
+                Debug.Log("pressing button 1");
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
                 RaycastHit hit;
 
                 if(Physics.Raycast(ray, out hit))
                 {
+                    Debug.Log("raycast hit " + hit.transform.gameObject.name);
                     if(hit.transform.gameObject.GetComponent<Hex>())
                     {
+                        Debug.Log("raycast hit hex");
                         startHexPosRMB = hit.transform.position;
                         //Debug.Log("start RMB on hex: " + hit.transform.gameObject.name);
 
