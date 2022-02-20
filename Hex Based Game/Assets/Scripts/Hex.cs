@@ -111,7 +111,7 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
 
     public void TurnOffOutline()
     {
-        outlineTransform.gameObject.SetActive(false);
+        outlineTransform.gameObject.SetActive(true);
         outlineMeshRenderer.material = defaultOutlineMat;
     }
 

@@ -28,7 +28,7 @@ public class UnitMovementManager : MonoBehaviour
         
         if(gameManager.SelectedUnit != null)
         { //only check if there is a selected unit
-            if(Input.GetMouseButtonDown(1))
+            if(Input.GetMouseButtonDown(1)) //initial click
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
@@ -71,7 +71,7 @@ public class UnitMovementManager : MonoBehaviour
                     // Debug.Log("start RMB on hex at pos" + startHexPosRMB);
                 }
             }
-            if(Input.GetMouseButton(1))
+            if(Input.GetMouseButton(1)) //drag
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
