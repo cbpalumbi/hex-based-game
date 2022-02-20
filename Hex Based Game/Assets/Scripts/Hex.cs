@@ -10,7 +10,7 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
     public Material hoverMat;
     public Material invalidOutlineMat;
     public Material defaultOutlineMat;
-    private Material selectedMat;
+    public Material selectedMat;
     public Material highlightMat;
     private MeshRenderer meshRenderer;
     private MeshRenderer outlineMeshRenderer;
@@ -30,12 +30,12 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
     void Start() {
         meshRenderer = GetComponent<MeshRenderer>();
         
-        selectedMat = hoverMat;
         gameManager = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
         uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
 
         outlineTransform = transform.GetChild(0);
         outlineMeshRenderer = outlineTransform.gameObject.GetComponent<MeshRenderer>();
+        SetToDefaultMaterial();
     }
 
     public void OnMouseEnter() 
@@ -64,7 +64,7 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
     public void OnMouseDown() 
     {
         if (gameManager.SelectedHexIndex == new Vector2(xIndex, zIndex))
-        {
+        { //if clicked already selected tile, deselect
             gameManager.SelectedHexIndex = new Vector2(-1, -1);
             SetToDefaultMaterial();
             return;
@@ -75,7 +75,7 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
             gameManager.SelectedHexIndex = new Vector2(xIndex, zIndex);
             if(meshRenderer != null)
             {
-                meshRenderer.material = selectedMat;
+                SetToSelectedMaterial();
             }
         }
     }
@@ -84,15 +84,16 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
     {
         if (meshRenderer != null)
         {
-            meshRenderer.material = defaultMat;
+            outlineMeshRenderer.material = defaultMat;
         }
     }
 
+    //unused as far as i know
     public void SetToSelectedMaterial()
     {
         if (meshRenderer != null)
         {
-            meshRenderer.material = selectedMat;
+            outlineMeshRenderer.material = selectedMat;
         }
     }
 
@@ -100,7 +101,7 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
     {
         if (meshRenderer != null)
         {
-            meshRenderer.material = highlightMat;
+            outlineMeshRenderer.material = highlightMat;
         }
     }
 

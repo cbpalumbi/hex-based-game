@@ -309,6 +309,7 @@ public class HexTileManager : MonoBehaviour
             hex.zIndex = z;
             hex.tileManager = this;
             hexes.Add(new Vector2(x, z), hex);
+            // hex.SetToDefaultMaterial();
         }
         else 
         {

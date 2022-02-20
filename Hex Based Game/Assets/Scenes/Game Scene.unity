@@ -307,6 +307,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &10679449
@@ -425,6 +426,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &11070021
@@ -543,6 +545,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &12463610
@@ -743,6 +746,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &21577379
@@ -1025,6 +1029,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &42566819
@@ -1605,6 +1610,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &67498144
@@ -1805,6 +1811,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &75818148
@@ -2169,6 +2176,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &88567403
@@ -2490,6 +2498,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &91558505
@@ -2742,6 +2751,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &96822836
@@ -2942,6 +2952,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &104483198
@@ -3142,6 +3153,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &129652390
@@ -3424,6 +3436,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &143656793
@@ -3542,6 +3555,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &149923879
@@ -3660,6 +3674,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &153848100
@@ -3914,6 +3929,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &163946989
@@ -4114,6 +4130,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &182046370
@@ -4686,6 +4703,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &210331181
@@ -4886,6 +4904,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &215807284
@@ -5004,6 +5023,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &217910493
@@ -5204,6 +5224,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &223393168
@@ -5441,6 +5462,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &241381500
@@ -5641,6 +5663,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &248431931
@@ -5759,6 +5782,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &249984012
@@ -5877,6 +5901,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &257726991
@@ -5995,6 +6020,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &258078953
@@ -6273,6 +6299,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &270688167
@@ -6391,6 +6418,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &274810520
@@ -6591,6 +6619,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &282590433
@@ -6791,6 +6820,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &284271782
@@ -7159,6 +7189,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &295995793
@@ -7277,6 +7308,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &297276840
@@ -7477,6 +7509,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &300054807
@@ -7595,6 +7628,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &300316723
@@ -7877,6 +7911,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &307104599
@@ -7995,6 +8030,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &307139073
@@ -8113,6 +8149,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &308760932
@@ -8395,6 +8432,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &335873001
@@ -8513,6 +8551,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &350521870
@@ -8631,6 +8670,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &351245859
@@ -8913,6 +8953,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &357820071
@@ -9297,6 +9338,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &371802299
@@ -9819,6 +9861,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &392400179
@@ -9937,6 +9980,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &401642083
@@ -10055,6 +10099,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &402996773
@@ -10255,6 +10300,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &410181847
@@ -10373,6 +10419,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &415603726
@@ -10573,6 +10620,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &421104406
@@ -10691,6 +10739,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &425276487
@@ -10891,6 +10940,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &430444871
@@ -11173,6 +11223,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &432698622
@@ -11373,6 +11424,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &452850721
@@ -11737,6 +11789,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &472579045
@@ -11855,6 +11908,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &473835246
@@ -11973,6 +12027,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &475816003
@@ -12091,6 +12146,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &476151179
@@ -12209,6 +12265,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &477731265
@@ -12409,6 +12466,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &482329574
@@ -12527,6 +12585,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &482624858
@@ -12721,6 +12780,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &508950934
@@ -12921,6 +12981,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &513962241
@@ -13214,6 +13275,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &527233717
@@ -13414,6 +13476,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &537737650
@@ -13608,6 +13671,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &549822245
@@ -14022,6 +14086,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &564500694
@@ -14140,6 +14205,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &564546920
@@ -14340,6 +14406,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &565441895
@@ -14622,6 +14689,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &579120775
@@ -14740,6 +14808,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &582789902
@@ -15022,6 +15091,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &595305939
@@ -15222,6 +15292,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &603342855
@@ -15340,6 +15411,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &604387379
@@ -15458,6 +15530,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &608852330
@@ -15904,6 +15977,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &629399809
@@ -16022,6 +16096,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &633668721
@@ -16140,6 +16215,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &640459223
@@ -16258,6 +16334,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &641237899
@@ -16622,6 +16699,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &656136516
@@ -16740,6 +16818,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &657447426
@@ -17268,6 +17347,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &676185274
@@ -17468,6 +17548,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &683410440
@@ -17668,6 +17749,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &687228098
@@ -17786,6 +17868,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &687876811
@@ -17904,6 +17987,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &688828581
@@ -18268,6 +18352,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &711244608
@@ -18386,6 +18471,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &712018757
@@ -18586,6 +18672,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &736525371
@@ -18704,6 +18791,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &736785782
@@ -18822,6 +18910,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &741675484
@@ -19022,6 +19111,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &752805170
@@ -19386,6 +19476,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &761579284
@@ -19504,6 +19595,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &766446920
@@ -19622,6 +19714,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &770034617
@@ -19740,6 +19833,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &772955545
@@ -19858,6 +19952,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &775824413
@@ -19976,6 +20071,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &776337683
@@ -20094,6 +20190,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &778922352
@@ -20294,6 +20391,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &788824046
@@ -20412,6 +20510,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &799151255
@@ -20612,6 +20711,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &823599304
@@ -20730,6 +20830,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &823691132
@@ -21094,6 +21195,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &847305006
@@ -21212,6 +21314,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &849530971
@@ -21330,6 +21433,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &853107624
@@ -21448,6 +21552,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &856871744
@@ -21566,6 +21671,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &860914353
@@ -21766,6 +21872,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &871387314
@@ -21884,6 +21991,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &873937173
@@ -22002,6 +22110,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &875574565
@@ -22120,6 +22229,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &882240801
@@ -22238,6 +22348,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &882989820
@@ -22658,6 +22769,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &908202499
@@ -22776,6 +22888,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &920890962
@@ -22976,6 +23089,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &923557523
@@ -23094,6 +23208,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &928987538
@@ -23212,6 +23327,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &933465201
@@ -23494,6 +23610,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &940147491
@@ -23555,13 +23672,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 943858172}
+  - component: {fileID: 943858173}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &943858172
 Transform:
   m_ObjectHideFlags: 0
@@ -23570,7 +23688,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943858171}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 10679446}
@@ -23832,6 +23950,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &943858173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943858171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51dd4015fd0c4024d9aae97f633924cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shouldDeactivate: 1
 --- !u!1 &951242713
 GameObject:
   m_ObjectHideFlags: 0
@@ -23952,6 +24083,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &952738036
@@ -24152,6 +24284,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &962046431
@@ -24352,6 +24485,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &983047675
@@ -24470,6 +24604,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &993828205
@@ -24670,6 +24805,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &998966626
@@ -24870,6 +25006,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1008369773
@@ -24988,6 +25125,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1010271646
@@ -25188,6 +25326,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1012507492
@@ -25388,6 +25527,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1021927103
@@ -25506,6 +25646,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1026742528
@@ -26034,6 +26175,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1050974034
@@ -26398,6 +26540,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1064626149
@@ -26516,6 +26659,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1064999251
@@ -26716,6 +26860,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1078297142
@@ -26916,6 +27061,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1079247483
@@ -27034,6 +27180,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1080137867
@@ -27802,6 +27949,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1096441576
@@ -27920,6 +28068,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1098061056
@@ -28202,6 +28351,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1114053741
@@ -28566,6 +28716,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1138313233
@@ -28684,6 +28835,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1143063807
@@ -29041,6 +29193,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1154896853
@@ -29405,6 +29558,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1176633511
@@ -29769,6 +29923,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1198827179
@@ -29969,6 +30124,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1205989839
@@ -30579,6 +30735,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1242368590
@@ -30779,6 +30936,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1259002894
@@ -30979,6 +31137,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1285708131
@@ -31097,6 +31256,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1289024536
@@ -31513,6 +31673,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1308072719
@@ -31795,6 +31956,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1315267890
@@ -31913,6 +32075,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1319677410
@@ -32031,6 +32194,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1325744344
@@ -32149,6 +32313,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1328032733
@@ -32267,6 +32432,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1328449325
@@ -32549,6 +32715,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1338717398
@@ -32633,7 +32800,7 @@ MonoBehaviour:
   units: []
   scoutUnitPrefab: {fileID: 6610664564215321902, guid: c4869b1b9adbc034db9c1098f072b6a5, type: 3}
   engineerUnitPrefab: {fileID: 6580943168891178228, guid: 5813237a54c11b14ea01360e39364b62, type: 3}
-  unitHeightOffsetFloat: 0.25
+  unitHeightOffsetFloat: 0.4
 --- !u!4 &1341499073
 Transform:
   m_ObjectHideFlags: 0
@@ -32796,6 +32963,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1348529627
@@ -32914,6 +33082,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1348627314
@@ -33032,6 +33201,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1350776333
@@ -33314,6 +33484,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1359000548
@@ -33596,6 +33767,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1370758956
@@ -33796,6 +33968,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1379064237
@@ -34242,6 +34415,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1404290070
@@ -34360,6 +34534,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1405483949
@@ -34642,6 +34817,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1413724718
@@ -34760,6 +34936,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1417216482
@@ -35124,6 +35301,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1425941112
@@ -35324,6 +35502,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1428573144
@@ -35442,6 +35621,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1431947105
@@ -35560,6 +35740,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1433740165
@@ -35678,6 +35859,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1441455315
@@ -35796,6 +35978,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1441576201
@@ -36406,6 +36589,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1456157191
@@ -36524,6 +36708,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1456623926
@@ -36806,6 +36991,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1466136903
@@ -36924,6 +37110,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1469404717
@@ -37124,6 +37311,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1486286843
@@ -37324,6 +37512,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1493255215
@@ -37524,6 +37713,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1501562566
@@ -37888,6 +38078,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1513840636
@@ -38170,6 +38361,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1521584498
@@ -38288,6 +38480,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1530134612
@@ -38481,6 +38674,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1530864030
@@ -38681,6 +38875,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1534723460
@@ -38881,6 +39076,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1547518495
@@ -39327,6 +39523,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1555313846
@@ -39522,6 +39719,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1561298409
@@ -39640,6 +39838,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1561597061
@@ -40056,6 +40255,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1585995539
@@ -40174,6 +40374,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1597030739
@@ -40367,6 +40568,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1597844350
@@ -40731,6 +40933,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1604209137
@@ -40931,6 +41134,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1608391211
@@ -41131,6 +41335,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1612669841
@@ -41413,6 +41618,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1629416322
@@ -41613,6 +41819,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1633220621
@@ -41731,6 +41938,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1635558769
@@ -41849,6 +42057,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1639625077
@@ -42295,6 +42504,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1664829825
@@ -42413,6 +42623,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1665956585
@@ -42531,6 +42742,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1667630016
@@ -42649,6 +42861,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1671914270
@@ -42767,6 +42980,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1677059687
@@ -42885,6 +43099,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1680157219
@@ -43003,6 +43218,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1680893866
@@ -43121,6 +43337,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1681575482
@@ -43305,6 +43522,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1682316429
@@ -43505,6 +43723,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1687255891
@@ -43705,6 +43924,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1701122460
@@ -43905,6 +44125,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1705212124
@@ -44485,6 +44706,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1728662808
@@ -44849,6 +45071,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1750661211
@@ -44967,6 +45190,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1751526528
@@ -45249,6 +45473,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1761273263
@@ -45367,6 +45592,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1763691048
@@ -45485,6 +45711,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1766741053
@@ -45603,6 +45830,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1770570736
@@ -45721,6 +45949,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1773595703
@@ -45921,6 +46150,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1795920037
@@ -46039,6 +46269,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1799914309
@@ -46239,6 +46470,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1803117604
@@ -46357,6 +46589,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1804435168
@@ -46475,6 +46708,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1804537652
@@ -46675,6 +46909,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1816454285
@@ -46793,6 +47028,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1817384341
@@ -46993,6 +47229,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1818471827
@@ -47275,6 +47512,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1835626683
@@ -47393,6 +47631,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1839587398
@@ -47593,6 +47832,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1840777800
@@ -47711,6 +47951,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1841082838
@@ -48084,6 +48325,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1873883045
@@ -48202,6 +48444,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1876982152
@@ -48648,6 +48891,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1900417048
@@ -48766,6 +49010,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1903314032
@@ -48884,6 +49129,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1909786326
@@ -49166,6 +49412,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1924338436
@@ -49776,6 +50023,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1947983372
@@ -49976,6 +50224,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1957328140
@@ -50094,6 +50343,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1959641879
@@ -50294,6 +50544,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1970034827
@@ -50412,6 +50663,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1972439936
@@ -50694,6 +50946,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1985702094
@@ -50812,6 +51065,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1987392420
@@ -50930,6 +51184,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &1991090070
@@ -51048,6 +51303,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2004979754
@@ -51166,6 +51422,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2011304164
@@ -51284,6 +51541,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2019416053
@@ -51484,6 +51742,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2024255701
@@ -51684,6 +51943,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2036928702
@@ -51802,6 +52062,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2040425444
@@ -51920,6 +52181,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2041646266
@@ -52038,6 +52300,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2043267898
@@ -52320,6 +52583,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2053922337
@@ -52520,6 +52784,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2056003040
@@ -52966,6 +53231,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2072964377
@@ -53084,6 +53350,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2078651342
@@ -53530,6 +53797,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2096104072
@@ -53938,6 +54206,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2106273956
@@ -54190,6 +54459,7 @@ MonoBehaviour:
   hoverMat: {fileID: 2100000, guid: 96ef2f3af3aa8de4682637c59a7be21d, type: 2}
   invalidOutlineMat: {fileID: 2100000, guid: dd5e59eb04068b348b1ca91b71ef5cb1, type: 2}
   defaultOutlineMat: {fileID: 2100000, guid: 7b23ca58a49e07c41b0a078ab8ec6344, type: 2}
+  selectedMat: {fileID: 0}
   highlightMat: {fileID: 2100000, guid: 9601ad136a25a04429143aeec1dbfac3, type: 2}
   tileManager: {fileID: 552102067}
 --- !u!23 &2110567178
