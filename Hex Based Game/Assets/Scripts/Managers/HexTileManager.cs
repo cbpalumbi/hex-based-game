@@ -6,6 +6,7 @@ public class HexTileManager : MonoBehaviour
 {
     
     public GameObject hexTilePrefab;
+    public GameObject nonTraversableHexTilePrefab;
     public GameObject pathSegmentPrefab;
     private GameManagerScript gameManager;
     private UnitManager unitManager;
@@ -38,24 +39,60 @@ public class HexTileManager : MonoBehaviour
         unitHeightOffset = new Vector3 (0, unitManager.unitHeightOffsetFloat, 0);
     }
 
-    public void CreateHexTileMap() 
+    public void CreateHexTileMap(TileMapData data) 
     {
         hexes = new Dictionary<Vector2, Hex>();
-        for(int x = 0; x <= mapWidth; x++) {
-            for(int z = 0; z <= mapHeight; z++) {
-                GameObject tempGameObject = Instantiate(hexTilePrefab);
 
-                if (z % 2 == 0) {
-                    tempGameObject.transform.position = new Vector3(x * tileXOffset, -0.15f, z * tileZOffset);
-                }
-                else 
-                {
-                    tempGameObject.transform.position = new Vector3(x * tileXOffset + tileXOffset/2, -0.15f, z * tileZOffset);
-                }
+        if (data != null) {
+            for(int x = 0; x < data.GetHeight(); x++) {
+                for(int z = 0; z < data.GetWidth(); z++) {
+                    
+                    GameObject tempGameObject = Instantiate(GetPrefabFromTileCode(data.GetMapData()[x,z]));
+                    
+                    PositionNewTile(tempGameObject, x, z);
 
-                SetUpTile(tempGameObject, x, z);
+                    SetUpTile(tempGameObject, x, z);
+                }
+            }
+
+            mapHeight = data.GetHeight();
+            mapWidth = data.GetWidth();
+
+        } 
+        else { //if no data passed in, make default empty level
+            for(int x = 0; x <= 5; x++) {
+                for(int z = 0; z <= 5; z++) {
+                    GameObject tempGameObject = Instantiate(hexTilePrefab);
+
+                    PositionNewTile(tempGameObject, x, z);
+
+                    SetUpTile(tempGameObject, x, z);
+                }
             }
         }
+    }
+
+    private void PositionNewTile(GameObject tempTile, int x, int z) {
+        if (z % 2 == 0) {
+            tempTile.transform.position = new Vector3(x * tileXOffset, -0.15f, z * tileZOffset);
+        }
+        else 
+        {
+            tempTile.transform.position = new Vector3(x * tileXOffset + tileXOffset/2, -0.15f, z * tileZOffset);
+        }
+    }
+
+    public GameObject GetPrefabFromTileCode(char c) {
+        GameObject prefab = hexTilePrefab;
+        switch (c) {
+            case 'A':
+                prefab = hexTilePrefab;
+                break;
+            case 'B':
+                prefab = nonTraversableHexTilePrefab;
+                break; 
+        }
+        return prefab;
     }
 
     public Dictionary<Vector2, Vector2> Search(Vector2 startHex, Vector2 targetHex)

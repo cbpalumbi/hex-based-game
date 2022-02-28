@@ -24,21 +24,21 @@ public class UnitManager : MonoBehaviour
 
     public void GenerateTestUnits() 
     {
-        GenerateUnit(UnitType.Scout, new Vector2(10, 10));
-        GenerateUnit(UnitType.Engineer, new Vector2(8, 8));
+        GenerateUnit(UnitType.Scout, new Vector2(1, 1));
+        GenerateUnit(UnitType.Engineer, new Vector2(2, 1));
     }
 
     public void GenerateUnit(UnitType unitType, Vector2 hexIndex) 
     {
-        if (tileManager.hexes[hexIndex].OccupyingUnit != null)
-        {
-            Debug.Log("Cannot generate unit because tile is already occupied by another unit");
-            return;
-        }
-
         if (hexIndex.x < 0 || hexIndex.x > tileManager.mapWidth || hexIndex.y < 0 || hexIndex.y > tileManager.mapHeight)
         {
             Debug.Log("Cannot generate unit at invalid hex index");
+            return;
+        }
+        
+        if (tileManager.hexes[hexIndex].OccupyingUnit != null)
+        {
+            Debug.Log("Cannot generate unit because tile is already occupied by another unit");
             return;
         }
 

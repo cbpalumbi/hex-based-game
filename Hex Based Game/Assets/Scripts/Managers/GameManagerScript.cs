@@ -79,7 +79,21 @@ public class GameManagerScript : MonoBehaviour
     }
 
     public void SetupGame() {
-        tileManager.CreateHexTileMap();
+
+        // char[,] myTiles = new char[,] {
+        //     {'B', 'B', 'B'},
+        //     {'B', 'B', 'B'},
+        //     {'B', 'B', 'B'},
+        //     {'B', 'B', 'A'}
+        // };
+
+        // TileMapData myData = new TileMapData(3, 4, myTiles);
+
+        // tileManager.CreateHexTileMap(myData.GetWidth(), myData.GetHeight(), myData);
+
+        TileMapData myData = new TileMapData();
+        tileManager.CreateHexTileMap(myData);
+
         unitManager.GenerateTestUnits();
 
         selectedHexIndex = new Vector2(-1, -1);
