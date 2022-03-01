@@ -80,6 +80,7 @@ public class UnitMovementManager : MonoBehaviour
                             
                             //turn off previous tile outline
                             tileManager.TryGetHexFromIndex(startHexIndex).TurnOffOutline();
+                            tileManager.ClearPreviewPath();
                             
                             bool isTraversable = hit.transform.gameObject.GetComponent<HexData>().isTraversable;
                             

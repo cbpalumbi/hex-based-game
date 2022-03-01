@@ -25,7 +25,7 @@ public class UnitManager : MonoBehaviour
     public void GenerateTestUnits() 
     {
         GenerateUnit(UnitType.Scout, new Vector2(1, 1));
-        GenerateUnit(UnitType.Engineer, new Vector2(2, 1));
+        GenerateUnit(UnitType.Engineer, new Vector2(5, 1));
     }
 
     public void GenerateUnit(UnitType unitType, Vector2 hexIndex) 

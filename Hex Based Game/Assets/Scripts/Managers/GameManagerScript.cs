@@ -80,19 +80,25 @@ public class GameManagerScript : MonoBehaviour
 
     public void SetupGame() {
 
-        // char[,] myTiles = new char[,] {
-        //     {'B', 'B', 'B'},
-        //     {'B', 'B', 'B'},
-        //     {'B', 'B', 'B'},
-        //     {'B', 'B', 'A'}
-        // };
+        //FOR CUSTOM MAP
+        char[,] myTiles = new char[,] {
+            {'A', 'A', 'A','A', 'A', 'A','A', 'A', 'A','A'},
+            {'A', 'A', 'A','A', 'A', 'A','A', 'B', 'A','A'},
+            {'A', 'B', 'A','A', 'A', 'A','A', 'B', 'B','A'},
+            {'A', 'B', 'B','A', 'A', 'A','A', 'B', 'B','A'},
+            {'A', 'A', 'B','A', 'A', 'B','A', 'A', 'B','A'},
+            {'A', 'A', 'A','A', 'A', 'A','A', 'A', 'A','A'},
+            {'A', 'A', 'A','A', 'A', 'A','A', 'A', 'A','A'},
+            {'A', 'A', 'A','A', 'A', 'A','A', 'A', 'A','A'},
+        };
 
-        // TileMapData myData = new TileMapData(3, 4, myTiles);
-
-        // tileManager.CreateHexTileMap(myData.GetWidth(), myData.GetHeight(), myData);
-
-        TileMapData myData = new TileMapData();
+        //don't forget to change the width and height here you edit the map
+        TileMapData myData = new TileMapData(10, 8, myTiles);
         tileManager.CreateHexTileMap(myData);
+
+        //FOR DEFAULT 5x5 MAP
+        // TileMapData myData = new TileMapData();
+        // tileManager.CreateHexTileMap(myData);
 
         unitManager.GenerateTestUnits();
 

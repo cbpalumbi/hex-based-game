@@ -156,7 +156,6 @@ public class HexTileManager : MonoBehaviour
             //add current to the path we're building
             path.Add(current);
             //set new current to be the hex that was one earlier in the search than the current hex
-            Debug.Log("current: "+ current);
             current = searchSpreadTileAndPreviousTile[current];
         }
 
