@@ -120,10 +120,18 @@ public class HexTileManager : MonoBehaviour
                 //if the tile we're examining is not one we've ever visited before
                 if (!tileAndPreviousTile.ContainsKey(next))
                 {
-                    //add it to the end of the frontier queue
-                    frontier.Enqueue(next);
-                    //set the previous tile for the next tile to be the current tile
-                    tileAndPreviousTile[next] = current;
+                    Hex nextHex = TryGetHexFromIndex(next);
+
+                    if (nextHex != null) {
+                        if (nextHex.gameObject.GetComponent<HexData>().isTraversable) {
+                            //add it to the end of the frontier queue
+                            frontier.Enqueue(next);
+                            //set the previous tile for the next tile to be the current tile
+                            tileAndPreviousTile[next] = current;
+                        }
+                    }
+
+                    
                     
                     // if (hexes.ContainsKey(next))
                     // {
@@ -148,6 +156,7 @@ public class HexTileManager : MonoBehaviour
             //add current to the path we're building
             path.Add(current);
             //set new current to be the hex that was one earlier in the search than the current hex
+            Debug.Log("current: "+ current);
             current = searchSpreadTileAndPreviousTile[current];
         }
 
@@ -283,7 +292,7 @@ public class HexTileManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Hex index not in hexes dictionary");
+            Debug.Log("Hex at index " + hexIndex + " is not in hexes dictionary");
             return null;
         }
     }

@@ -38,14 +38,18 @@ public class UnitMovementManager : MonoBehaviour
                 {
                     if(hit.transform.gameObject.GetComponent<Hex>())
                     {
-                        startHexPosRMB = hit.transform.position;
-                        //Debug.Log("start RMB on hex: " + hit.transform.gameObject.name);
+                        bool isTraversable = hit.transform.gameObject.GetComponent<HexData>().isTraversable;
+                        
+                        if(isTraversable) {
+                            startHexPosRMB = hit.transform.position;
+                            //Debug.Log("start RMB on hex: " + hit.transform.gameObject.name);
 
-                        Hex hitHex = hit.transform.gameObject.GetComponent<Hex>();
-                        startHexIndex = new Vector2(hitHex.xIndex, hitHex.zIndex);
-                        tempPreviewPath = tileManager.PreviewPathFromUnitToDestination(gameManager.SelectedUnit, startHexIndex);
+                            Hex hitHex = hit.transform.gameObject.GetComponent<Hex>();
+                            startHexIndex = new Vector2(hitHex.xIndex, hitHex.zIndex);
+                            tempPreviewPath = tileManager.PreviewPathFromUnitToDestination(gameManager.SelectedUnit, startHexIndex);
 
-                        ProcessDestinationTile(hitHex);
+                            ProcessDestinationTile(hitHex);
+                        }
                     }
                 }
                 else
@@ -77,19 +81,23 @@ public class UnitMovementManager : MonoBehaviour
                             //turn off previous tile outline
                             tileManager.TryGetHexFromIndex(startHexIndex).TurnOffOutline();
                             
-                            Hex hitHex = hit.transform.gameObject.GetComponent<Hex>();
-                            Vector2 hitHexIndex = new Vector2(hitHex.xIndex, hitHex.zIndex);
+                            bool isTraversable = hit.transform.gameObject.GetComponent<HexData>().isTraversable;
                             
-                            //set currently previewing destination to be the new target hex instead of the original one we clicked
-                            startHexPosRMB = currentHexPosRMB;
+                            if (isTraversable) {
+                                Hex hitHex = hit.transform.gameObject.GetComponent<Hex>();
+                                Vector2 hitHexIndex = new Vector2(hitHex.xIndex, hitHex.zIndex);
+                                
+                                //set currently previewing destination to be the new target hex instead of the original one we clicked
+                                startHexPosRMB = currentHexPosRMB;
 
-                            //update startHexIndex too
-                            startHexIndex = hitHexIndex;
-                            
-                            //rerun preview with new target hex
-                            tempPreviewPath = tileManager.PreviewPathFromUnitToDestination(gameManager.SelectedUnit, hitHexIndex);                            
-                            
-                            ProcessDestinationTile(hitHex); //determines tile validity and outlines
+                                //update startHexIndex too
+                                startHexIndex = hitHexIndex;
+                                
+                                //rerun preview with new target hex
+                                tempPreviewPath = tileManager.PreviewPathFromUnitToDestination(gameManager.SelectedUnit, hitHexIndex);                            
+                                
+                                ProcessDestinationTile(hitHex); //determines tile validity and outlines
+                            }
                         }
                     }
                 }
