@@ -35,6 +35,11 @@ public class UnitManager : MonoBehaviour
             Debug.Log("Cannot generate unit at invalid hex index");
             return;
         }
+
+        if (!tileManager.hexes[hexIndex].gameObject.GetComponent<HexData>().isTraversable) {
+            Debug.Log("Cannot generate unit on nonTraversable Tile.");
+            return;
+        }
         
         if (tileManager.hexes[hexIndex].OccupyingUnit != null)
         {
