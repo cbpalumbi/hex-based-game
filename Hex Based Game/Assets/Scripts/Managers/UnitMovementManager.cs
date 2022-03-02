@@ -132,11 +132,19 @@ public class UnitMovementManager : MonoBehaviour
                 }
 
                 //clear lingering UI
-                tempPreviewPath.Clear();
-                tileManager.ClearPreviewPath();
-                tileManager.TryGetHexFromIndex(startHexIndex).TurnOffOutline();
+                ClearPathAndPathingUI();
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            ClearPathAndPathingUI();
+        }
+    }
+
+    private void ClearPathAndPathingUI() {
+        tempPreviewPath.Clear();
+        tileManager.ClearPreviewPath();
+        tileManager.TryGetHexFromIndex(startHexIndex).TurnOffOutline();
     }
 
     private void ProcessDestinationTile(Hex hitHex) {
