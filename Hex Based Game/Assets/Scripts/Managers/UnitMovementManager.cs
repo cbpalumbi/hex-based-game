@@ -83,8 +83,12 @@ public class UnitMovementManager : MonoBehaviour
                             tileManager.ClearPreviewPath();
                             
                             bool isTraversable = hit.transform.gameObject.GetComponent<HexData>().isTraversable;
+                            bool isOccupied = false;
+                            if (hit.transform.gameObject.GetComponent<Hex>().OccupyingUnit != null) {
+                                isOccupied = true;
+                            }
                             
-                            if (isTraversable) {
+                            if (isTraversable && !isOccupied) {
                                 Hex hitHex = hit.transform.gameObject.GetComponent<Hex>();
                                 Vector2 hitHexIndex = new Vector2(hitHex.xIndex, hitHex.zIndex);
                                 
