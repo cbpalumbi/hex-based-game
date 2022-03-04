@@ -36,7 +36,7 @@ public class HexTileManager : MonoBehaviour
         pathSegments = new List<GameObject>();
 
         unitManager = GameObject.Find("UnitManager").GetComponent<UnitManager>();
-        unitHeightOffset = new Vector3 (0, unitManager.unitHeightOffsetFloat, 0);
+        unitHeightOffset = new Vector3 (0, unitManager.unitHeightOffsetYFloat, 0);
     }
 
     public void CreateHexTileMap(TileMapData data) 
@@ -374,6 +374,7 @@ public class HexTileManager : MonoBehaviour
     {
         if (hexes.ContainsKey(hexIndex))
         {
+            Debug.Log("adding height offset of: " + unitHeightOffset + " to pos of : " + hexes[hexIndex].transform.position);
             return hexes[hexIndex].transform.position + unitHeightOffset;
         }
         else

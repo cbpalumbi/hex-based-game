@@ -13842,7 +13842,7 @@ MonoBehaviour:
   mapHeight: 15
   tileXOffset: 1.8
   tileZOffset: 1.56
-  pathSegmentHeightOffset: {x: 0, y: 0.05, z: 0}
+  pathSegmentHeightOffset: {x: 0, y: -0.7, z: 0}
 --- !u!4 &552102068
 Transform:
   m_ObjectHideFlags: 0
@@ -23680,7 +23680,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &943858172
 Transform:
   m_ObjectHideFlags: 0
@@ -32801,7 +32801,7 @@ MonoBehaviour:
   units: []
   scoutUnitPrefab: {fileID: 6610664564215321902, guid: c4869b1b9adbc034db9c1098f072b6a5, type: 3}
   engineerUnitPrefab: {fileID: 6580943168891178228, guid: 5813237a54c11b14ea01360e39364b62, type: 3}
-  unitHeightOffsetFloat: 0.4
+  unitHeightOffsetYFloat: 0.95
 --- !u!4 &1341499073
 Transform:
   m_ObjectHideFlags: 0
@@ -39602,7 +39602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8797513334935258425, guid: 37ed696d29869a64a99520029fe2bf50, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8797513334935258425, guid: 37ed696d29869a64a99520029fe2bf50, type: 3}
       propertyPath: m_LocalScale.x
@@ -43455,7 +43455,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1682316425
 GameObject:

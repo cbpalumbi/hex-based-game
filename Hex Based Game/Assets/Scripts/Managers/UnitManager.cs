@@ -8,7 +8,7 @@ public class UnitManager : MonoBehaviour
     public List<Unit> units;
     public GameObject scoutUnitPrefab;
     public GameObject engineerUnitPrefab;
-    public float unitHeightOffsetFloat = 0.35f;  //to sit on board, units must be raised up on y axis
+    public float unitHeightOffsetYFloat = 1f;  //to sit on board, units must be raised up on y axis
     private GameManagerScript gameManager;
     private HexTileManager tileManager;
     private int uniqueUnitCount = 0;
@@ -79,6 +79,7 @@ public class UnitManager : MonoBehaviour
             //instantiates new unit
             GameObject unitObj = GameObject.Instantiate(unitPrefab);
             //moves unit to proper position
+            Debug.Log("moving unit to new position: " + worldPos);
             unitObj.transform.position = worldPos;
 
             Unit unit = unitObj.GetComponent<Unit>();
