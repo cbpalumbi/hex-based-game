@@ -374,7 +374,7 @@ public class HexTileManager : MonoBehaviour
     {
         if (hexes.ContainsKey(hexIndex))
         {
-            Debug.Log("adding height offset of: " + unitHeightOffset + " to pos of : " + hexes[hexIndex].transform.position);
+            //Debug.Log("adding height offset of: " + unitHeightOffset + " to pos of : " + hexes[hexIndex].transform.position);
             return hexes[hexIndex].transform.position + unitHeightOffset;
         }
         else

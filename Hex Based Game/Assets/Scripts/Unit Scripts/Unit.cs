@@ -14,6 +14,8 @@ public class Unit : MonoBehaviour, ITurnTrackable, ISelectable
     private UnitManager unitManager;
     private HexTileManager tileManager;
     private UIManager uIManager;
+
+    private UnitBasicAnimationController basicAnimController;
     public float wayPointRadius = 0.01f;
     
     [HideInInspector] public int unitId;
@@ -38,7 +40,8 @@ public class Unit : MonoBehaviour, ITurnTrackable, ISelectable
         tileManager = GameObject.Find("HexTileManager").GetComponent<HexTileManager>();
         gameManager = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
         unitManager = GameObject.Find("UnitManager").GetComponent<UnitManager>();
-        uIManager = GameObject.Find("UIManager").GetComponent<UIManager>();
+        uIManager = GameObject.Find("UIManager").GetComponent<UIManager>(); 
+        basicAnimController = gameObject.GetComponent<UnitBasicAnimationController>();
 
         SetupUnit();
 
@@ -149,6 +152,9 @@ public class Unit : MonoBehaviour, ITurnTrackable, ISelectable
                 if (currentStepInPathIndex >= globalPathToFollowInWorldPos.Count) //if we've just reached  the *final step* destination
                 {
                     TurnOffMovement();
+                } else {
+                    //rotate gameobject to face new destination
+                    transform.LookAt(globalPathToFollowInWorldPos[currentStepInPathIndex]);
                 }
             }
         }
@@ -160,6 +166,8 @@ public class Unit : MonoBehaviour, ITurnTrackable, ISelectable
         globalPathToFollowInWorldPos = pathInWorldPos;
         //switches unit to movement mode
         shouldMove = true;
+        //turns on run animation
+        ToggleRunAnimation(true);
     }
 
     private void TurnOffMovement()
@@ -174,6 +182,21 @@ public class Unit : MonoBehaviour, ITurnTrackable, ISelectable
         tileManager.ClearPreviewPath();
         //remove outline of destination hex, now current hex
         tileManager.TryGetHexFromIndex(currentHexIndex).TurnOffOutline();
+        //turn off run animation
+        ToggleRunAnimation(false);
+    }
+
+    private void ToggleRunAnimation(bool turnOn) {
+        if (basicAnimController) {
+            if (turnOn) {
+                basicAnimController.StartRunning();
+            } else {
+                basicAnimController.StopRunning();
+            }
+        }
+        else {
+            Debug.Log("Unit has no animation controller component");
+        }
     }
 
     public void OnMouseDown() 

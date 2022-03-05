@@ -32800,7 +32800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   units: []
   scoutUnitPrefab: {fileID: 6610664564215321902, guid: c4869b1b9adbc034db9c1098f072b6a5, type: 3}
-  engineerUnitPrefab: {fileID: 6580943168891178228, guid: 5813237a54c11b14ea01360e39364b62, type: 3}
+  engineerUnitPrefab: {fileID: 6610664564215321902, guid: d7a59bff69c25cc43a5f65271d351da7, type: 3}
   unitHeightOffsetYFloat: 0.95
 --- !u!4 &1341499073
 Transform:

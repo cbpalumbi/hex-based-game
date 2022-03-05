@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1811860265909784031}
   - component: {fileID: -5951441334207229668}
   - component: {fileID: -786132937625917170}
+  - component: {fileID: 285900015289508114}
   m_Layer: 0
   m_Name: UnitScout
   m_TagString: Untagged
@@ -83,6 +84,19 @@ MonoBehaviour:
   tileSpeed: 0
   unitName: 
   scoutTileMovementSpeed: 3
+--- !u!114 &285900015289508114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6610664564215321902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c0a83a6d36b364893a91a781b4a370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 2497987013329364883}
 --- !u!1 &7380999558722667607
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,5 +254,10 @@ PrefabInstance:
 --- !u!4 &2675165156224079494 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8393059141839491891, guid: e717e1fa21f9a3a499ddeb2cf1431488, type: 3}
+  m_PrefabInstance: {fileID: 5862062027694736821}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2497987013329364883 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8354348485415543334, guid: e717e1fa21f9a3a499ddeb2cf1431488, type: 3}
   m_PrefabInstance: {fileID: 5862062027694736821}
   m_PrefabAsset: {fileID: 0}
