@@ -82,18 +82,18 @@ public class GameManagerScript : MonoBehaviour
 
         //FOR CUSTOM MAP
         char[,] myTiles = new char[,] {
-            {'A', 'A', 'A','A', 'A', 'A','A', 'A', 'A','A'},
-            {'A', 'A', 'A','A', 'A', 'A','A', 'B', 'A','A'},
-            {'A', 'B', 'A','A', 'A', 'A','A', 'B', 'B','A'},
-            {'A', 'B', 'B','A', 'A', 'A','A', 'B', 'B','A'},
-            {'A', 'A', 'B','A', 'A', 'B','A', 'A', 'B','A'},
-            {'A', 'A', 'A','A', 'A', 'A','A', 'A', 'A','A'},
-            {'A', 'A', 'A','A', 'A', 'A','A', 'A', 'A','A'},
-            {'A', 'A', 'A','A', 'A', 'A','A', 'A', 'A','A'},
+            {'A', 'A', 'A','A', 'A', 'A','A', 'A'},
+            {'A', 'A', 'A','A', 'A', 'A','A', 'B'},
+            {'A', 'B', 'A','A', 'A', 'A','A', 'B'},
+            {'A', 'B', 'B','A', 'A', 'A','A', 'B'},
+            {'A', 'A', 'B','A', 'A', 'B','A', 'A'},
+            {'A', 'A', 'A','A', 'A', 'A','A', 'A'},
+            {'A', 'A', 'A','A', 'A', 'A','A', 'A'},
+            {'A', 'A', 'A','A', 'A', 'A','A', 'A'},
         };
 
         //don't forget to change the width and height here you edit the map
-        TileMapData myData = new TileMapData(10, 8, myTiles);
+        TileMapData myData = new TileMapData(8, 8, myTiles);
         tileManager.CreateHexTileMap(myData);
 
         //FOR DEFAULT 5x5 MAP
