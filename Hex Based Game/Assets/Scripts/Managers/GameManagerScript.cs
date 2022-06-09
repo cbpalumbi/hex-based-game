@@ -73,6 +73,14 @@ public class GameManagerScript : MonoBehaviour
         }
         Debug.Log("tasks.Count: " + turnTasks.Count);
         //generate new queue of tasks
+
+        //process tiles collapsing
+        foreach (KeyValuePair<Vector2, Hex> pair in tileManager.hexes) {
+            Hex hex = pair.Value;
+            if (hex.GetComponent<HexData>().doesCollapse) {
+                hex.GetComponent<HexCollapse>().CollapseByOne(pair.Key);
+            }
+        }
         
         //update all UI
         uiManager.UpdateSelectedInfoPanel();

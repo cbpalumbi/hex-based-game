@@ -6,15 +6,13 @@ public class HexData : MonoBehaviour
 {
     public bool isTraversable = true;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public bool doesCollapse = false;
+
+    public int collapseTurnsMax = 5;
+    public int collapseTurnsCurrent;
+
+    void Start() {
+        collapseTurnsCurrent = collapseTurnsMax;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

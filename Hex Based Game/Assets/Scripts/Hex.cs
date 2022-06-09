@@ -120,4 +120,8 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
         outlineTransform.gameObject.SetActive(true);
         outlineMeshRenderer.material = invalidOutlineMat;
     }
+    
+    public void HideHex() {
+        outlineMeshRenderer.enabled = false;
+    }
 }

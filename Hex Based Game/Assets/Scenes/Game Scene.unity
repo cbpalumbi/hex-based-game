@@ -385,6 +385,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &17925801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -600,6 +603,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &28326378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -733,6 +739,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &42109631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1000,6 +1009,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &75570631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1133,6 +1145,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &86134743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1305,6 +1320,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &90940809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1572,6 +1590,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 0
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &123444887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1787,6 +1808,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &142523320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1920,6 +1944,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &147257771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2189,6 +2216,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &167307747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2977,6 +3007,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &249160261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3188,6 +3221,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 0
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &271738379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3321,6 +3357,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &283037723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3786,6 +3825,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &308840528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3919,6 +3961,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &329851703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4558,6 +4603,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 0
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &468429237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4691,6 +4739,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &475831684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4982,6 +5033,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &517992716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5284,6 +5338,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &551618545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5714,6 +5771,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &600931264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6011,6 +6071,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &661225343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6226,6 +6289,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &704336428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6359,6 +6425,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &736580447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6492,6 +6561,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &749366373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6625,6 +6697,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &791252699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6840,6 +6915,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &823197705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7137,6 +7215,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &864484232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7270,6 +7351,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &866690539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7403,6 +7487,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &875628704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7618,6 +7705,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &889791529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7807,6 +7897,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 0
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &894770096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8076,6 +8169,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 0
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &951461012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8455,6 +8551,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &992657851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8588,6 +8687,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1054387025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8961,6 +9063,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1096738139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9094,6 +9199,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1113710432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9309,6 +9417,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1129922794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9599,6 +9710,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 0
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1213419469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9896,6 +10010,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1238900765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10111,6 +10228,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1252330036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10408,6 +10528,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 0
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1277208118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10541,6 +10664,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1288333891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11101,6 +11227,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1344199550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11316,6 +11445,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1381307365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11449,6 +11581,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1389721189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11746,6 +11881,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1424083789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12043,6 +12181,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1485432461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12820,6 +12961,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1564912878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12953,6 +13097,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1568175596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13086,6 +13233,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1583927050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13510,6 +13660,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1598686883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13643,6 +13796,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1634687350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13858,6 +14014,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1646925368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13991,6 +14150,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1649580069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14124,6 +14286,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 0
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1657614345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14257,6 +14422,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1677331087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14590,6 +14758,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1716346500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14723,6 +14894,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1726673186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14856,6 +15030,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1753799228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14989,6 +15166,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1756459948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15286,6 +15466,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &1829299035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16192,6 +16375,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &2002415322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16407,6 +16593,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &2052317048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16925,6 +17114,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTraversable: 1
+  doesCollapse: 0
+  collapseTurnsMax: 5
+  collapseTurnsCurrent: 0
 --- !u!114 &2137893674
 MonoBehaviour:
   m_ObjectHideFlags: 0
