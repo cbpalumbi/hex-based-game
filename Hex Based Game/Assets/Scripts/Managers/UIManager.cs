@@ -18,6 +18,8 @@ public class UIManager : MonoBehaviour
     public GameObject stat4Panel;
     public TextMeshProUGUI stat4Text;
     public TextMeshProUGUI turnTaskText;
+    public TextMeshProUGUI turnCounter;
+
     private List<GameObject> statPanels;
     private List<TextMeshProUGUI> statTexts;
     private GameManagerScript gameManager;
@@ -95,6 +97,10 @@ public class UIManager : MonoBehaviour
         {
             textField.text = "";
         }
+    }
+
+    public void UpdateTurnCounter() {
+        turnCounter.text = "Turn " + gameManager.turnCount;
     }
 
 }

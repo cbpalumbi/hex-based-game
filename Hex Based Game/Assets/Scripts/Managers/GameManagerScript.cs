@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManagerScript : MonoBehaviour
 {
     public bool activateFogOnPlay = false;
+    [HideInInspector] public int turnCount;
     private Unit selectedUnit;
     private Vector2 selectedHexIndex;
     private HexTileManager tileManager;
@@ -37,6 +38,7 @@ public class GameManagerScript : MonoBehaviour
         
         turnTasks = new Queue<TurnTask>();
         SetupGame();
+        turnCount = 1;
     }
 
     public void ProcessTurnIndicatorClick()
@@ -84,6 +86,10 @@ public class GameManagerScript : MonoBehaviour
         
         //update all UI
         uiManager.UpdateSelectedInfoPanel();
+        Debug.Log("turn count is " + turnCount);
+        turnCount++;
+        Debug.Log("turn count is " + turnCount);
+        uiManager.UpdateTurnCounter();
     }
 
     public void SetupGame() {
