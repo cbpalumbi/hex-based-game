@@ -86,9 +86,7 @@ public class GameManagerScript : MonoBehaviour
         
         //update all UI
         uiManager.UpdateSelectedInfoPanel();
-        Debug.Log("turn count is " + turnCount);
         turnCount++;
-        Debug.Log("turn count is " + turnCount);
         uiManager.UpdateTurnCounter();
     }
 

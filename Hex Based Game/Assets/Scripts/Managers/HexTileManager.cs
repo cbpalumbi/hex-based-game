@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class HexTileManager : MonoBehaviour
 {
-    
     public GameObject hexTilePrefab;
     public GameObject nonTraversableHexTilePrefab;
     public GameObject pathSegmentPrefab;
