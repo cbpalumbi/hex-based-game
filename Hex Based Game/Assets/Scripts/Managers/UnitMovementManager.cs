@@ -79,7 +79,7 @@ public class UnitMovementManager : MonoBehaviour
                         {//if we've dragged our RMB to a different hex tile
                             
                             //turn off previous tile outline
-                            tileManager.TryGetHexFromIndex(startHexIndex).TurnOffOutline();
+                            tileManager.TryGetHexFromIndex(startHexIndex).SetOutlineToDefaultMaterial();
                             tileManager.ClearPreviewPath();
                             
                             bool isTraversable = hit.transform.gameObject.GetComponent<HexData>().isTraversable;
@@ -144,7 +144,7 @@ public class UnitMovementManager : MonoBehaviour
     private void ClearPathAndPathingUI() {
         tempPreviewPath.Clear();
         tileManager.ClearPreviewPath();
-        tileManager.TryGetHexFromIndex(startHexIndex).TurnOffOutline();
+        tileManager.TryGetHexFromIndex(startHexIndex).SetOutlineToDefaultMaterial();
     }
 
     private void ProcessDestinationTile(Hex hitHex) {
@@ -165,7 +165,7 @@ public class UnitMovementManager : MonoBehaviour
         else //otherwise, valid tile
         { 
             //turn on new tile outline
-            hitHex.SetToHighlightMaterial();
+            hitHex.SetOutlineToHighlightMaterial();
             isCurrentlySelectedPathValid = true;
         }
     }

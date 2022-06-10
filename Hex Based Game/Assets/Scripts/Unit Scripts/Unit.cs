@@ -181,7 +181,7 @@ public class Unit : MonoBehaviour, ITurnTrackable, ISelectable
         //destroys all existing preview path lines
         tileManager.ClearPreviewPath();
         //remove outline of destination hex, now current hex
-        tileManager.TryGetHexFromIndex(currentHexIndex).TurnOffOutline();
+        tileManager.TryGetHexFromIndex(currentHexIndex).SetOutlineToDefaultMaterial();
         //turn off run animation
         ToggleRunAnimation(false);
     }

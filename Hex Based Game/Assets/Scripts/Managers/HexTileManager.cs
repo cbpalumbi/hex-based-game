@@ -278,7 +278,7 @@ public class HexTileManager : MonoBehaviour
         Hex hexToHighlight = TryGetHexFromIndex(hexIndex);
         if(hexToHighlight)
         {
-            hexToHighlight.SetToHighlightMaterial();
+            hexToHighlight.SetHexToHighlightMaterial();
         }
     }
     
@@ -365,7 +365,7 @@ public class HexTileManager : MonoBehaviour
     {
         foreach(Hex hex in hexes.Values) 
         {
-            hex.SetToDefaultMaterial();
+            hex.SetHexToDefaultMaterial();
         }
     } 
 

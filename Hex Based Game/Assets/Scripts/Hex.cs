@@ -12,7 +12,7 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
     public Material defaultOutlineMat;
     public Material selectedMat;
     public Material highlightMat;
-    private MeshRenderer meshRenderer;
+    private MeshRenderer hexMeshRenderer;
     private MeshRenderer outlineMeshRenderer;
     private GameManagerScript gameManager;
     public HexTileManager tileManager;
@@ -28,14 +28,14 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
     private Transform outlineTransform;
 
     void Start() {
-        meshRenderer = GetComponent<MeshRenderer>();
         
         gameManager = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
         uiManager = GameObject.Find("UIManager").GetComponent<UIManager>();
 
         outlineTransform = transform.GetChild(0);
         outlineMeshRenderer = outlineTransform.gameObject.GetComponent<MeshRenderer>();
-        SetToDefaultMaterial();
+        hexMeshRenderer = transform.GetChild(1).gameObject.GetComponent<MeshRenderer>();
+        SetHexToDefaultMaterial();
     }
 
     public void OnMouseEnter() 
@@ -56,7 +56,7 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
         }
         else 
         {
-            SetToDefaultMaterial();
+            SetHexToDefaultMaterial();
         }
         
     }
@@ -66,58 +66,76 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
         if (gameManager.SelectedHexIndex == new Vector2(xIndex, zIndex))
         { //if clicked already selected tile, deselect
             gameManager.SelectedHexIndex = new Vector2(-1, -1);
-            SetToDefaultMaterial();
+            SetOutlineToDefaultMaterial();
             return;
         }
         else
         {
             tileManager.DeselectAllHexes();
             gameManager.SelectedHexIndex = new Vector2(xIndex, zIndex);
-            if(meshRenderer != null)
+            if(hexMeshRenderer != null)
             {
-                SetToSelectedMaterial();
+                SetOutlineToSelectedMaterial();
             }
         }
     }
 
-    public void SetToDefaultMaterial()
+    public void SetHexToDefaultMaterial()
     {
-        if (meshRenderer != null)
+        if (hexMeshRenderer != null)
+        {
+            hexMeshRenderer.material = defaultMat;
+        }
+    }
+
+    public void SetOutlineToDefaultMaterial()
+    {
+        if (outlineMeshRenderer != null)
         {
             outlineMeshRenderer.material = defaultMat;
         }
     }
 
-    //unused as far as i know
-    public void SetToSelectedMaterial()
+    public void SetHexToSelectedMaterial()
     {
-        if (meshRenderer != null)
+        if (hexMeshRenderer != null)
+        {
+            hexMeshRenderer.material = selectedMat;
+        }
+    }
+
+    public void SetOutlineToSelectedMaterial()
+    {
+        if (outlineMeshRenderer != null)
         {
             outlineMeshRenderer.material = selectedMat;
         }
     }
 
-    public void SetToHighlightMaterial()
+    public void SetHexToHighlightMaterial()
     {
-        if (meshRenderer != null)
+        if (hexMeshRenderer != null)
+        {
+            hexMeshRenderer.material = highlightMat;
+        }
+    }
+
+    public void SetOutlineToHighlightMaterial()
+    {
+        if (outlineMeshRenderer != null)
         {
             outlineMeshRenderer.material = highlightMat;
         }
     }
 
-    public void TurnOnOutline()
-    {
-        outlineTransform.gameObject.SetActive(true);
-    }
-
     public void TurnOffOutline()
     {
-        outlineTransform.gameObject.SetActive(true);
+        //outlineTransform.gameObject.SetActive(true);
         outlineMeshRenderer.material = defaultOutlineMat;
     }
 
     public void TurnOnInvalidOutline() {
-        outlineTransform.gameObject.SetActive(true);
+        //outlineTransform.gameObject.SetActive(true);
         outlineMeshRenderer.material = invalidOutlineMat;
     }
     
