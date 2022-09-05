@@ -128,6 +128,17 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
         }
     }
 
+    public void SetHexToCollapseColor (int turnsToCollapse) {
+        //colors list considers most solid color to be at index 0
+        int index = tileManager.hexColors.Count - turnsToCollapse;
+        if (index < 0) {
+            index = 0;
+        } else if (index > tileManager.hexColors.Count - 1) {
+            index = tileManager.hexColors.Count - 1;
+        }
+        hexMeshRenderer.material = tileManager.hexColors[index];
+    }
+
     public void TurnOffOutline()
     {
         //outlineTransform.gameObject.SetActive(true);
@@ -141,5 +152,6 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
     
     public void HideHex() {
         outlineMeshRenderer.enabled = false;
+        hexMeshRenderer.enabled = false;
     }
 }

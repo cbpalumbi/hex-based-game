@@ -15,6 +15,8 @@ public class HexTileManager : MonoBehaviour
     public float tileXOffset;
     public float tileZOffset;
 
+    public List<Material> hexColors;
+
     public Dictionary<Vector2, Hex> hexes;
     private List<GameObject> pathSegments;
     private Vector3 unitHeightOffset; 

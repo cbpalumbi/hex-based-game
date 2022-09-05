@@ -8363,6 +8363,11 @@ MonoBehaviour:
   mapHeight: 15
   tileXOffset: 1.8
   tileZOffset: 1.56
+  hexColors:
+  - {fileID: 2100000, guid: ac72c1de284814d159fc03a5b43702b7, type: 2}
+  - {fileID: 2100000, guid: dab682271141f4452aeeb081476fef8d, type: 2}
+  - {fileID: 2100000, guid: 74bfe12ad377c497ea9c4b92936e77dd, type: 2}
+  - {fileID: 2100000, guid: 5164562baee7b4d57a78aa6ef7eb7cd0, type: 2}
   pathSegmentHeightOffset: {x: 0, y: -0.7, z: 0}
 --- !u!4 &552102068
 Transform:

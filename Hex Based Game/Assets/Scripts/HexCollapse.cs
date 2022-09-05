@@ -22,6 +22,7 @@ public class HexCollapse : MonoBehaviour
     public void CollapseByOne(Vector2 hexIndex) {
         if (data.collapseTurnsCurrent > 0) {
             data.collapseTurnsCurrent -= 1;
+            hexScript.SetHexToCollapseColor(data.collapseTurnsCurrent);
         }
         
         if (data.collapseTurnsCurrent == 0) {
