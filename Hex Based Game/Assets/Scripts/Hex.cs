@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Hex : MonoBehaviour, ISelectable, IHoverable
+public class Hex : MonoBehaviour, ISelectable
 {
     public int xIndex;
     public int zIndex;
@@ -12,7 +12,8 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
     public Material defaultOutlineMat;
     public Material selectedMat;
     public Material highlightMat;
-    private MeshRenderer hexMeshRenderer;
+    [HideInInspector]
+    public MeshRenderer hexMeshRenderer;
     private MeshRenderer outlineMeshRenderer;
     private GameManagerScript gameManager;
     public HexTileManager tileManager;
@@ -34,50 +35,31 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
 
         outlineTransform = transform.GetChild(0);
         outlineMeshRenderer = outlineTransform.gameObject.GetComponent<MeshRenderer>();
-        hexMeshRenderer = transform.GetChild(1).gameObject.GetComponent<MeshRenderer>();
-        SetHexToDefaultMaterial();
+        //SetHexToDefaultMaterial();
     }
 
     public void OnMouseEnter() 
     {
-        // if(meshRenderer != null) {
-        //     meshRenderer.material = hoverMat;
-        // }
         uiManager.UpdateHoverText(xIndex, zIndex);
-    }
-
-    public void OnMouseExit() 
-    {
-        // Debug.Log("Mouse exited hex " + (xIndex, zIndex));
-        if (gameManager.SelectedHexIndex == new Vector2(xIndex, zIndex))
-        {
-            //if the hex is selected, don't change color back to default on mouse exit
-            return;
-        }
-        else 
-        {
-            SetHexToDefaultMaterial();
-        }
-        
     }
 
     public void OnMouseDown() 
     {
-        if (gameManager.SelectedHexIndex == new Vector2(xIndex, zIndex))
-        { //if clicked already selected tile, deselect
-            gameManager.SelectedHexIndex = new Vector2(-1, -1);
-            SetOutlineToDefaultMaterial();
-            return;
-        }
-        else
-        {
-            tileManager.DeselectAllHexes();
-            gameManager.SelectedHexIndex = new Vector2(xIndex, zIndex);
-            if(hexMeshRenderer != null)
-            {
-                SetOutlineToSelectedMaterial();
-            }
-        }
+        // if (gameManager.SelectedHexIndex == new Vector2(xIndex, zIndex))
+        // { //if clicked already selected tile, deselect
+        //     gameManager.SelectedHexIndex = new Vector2(-1, -1);
+        //     SetOutlineToDefaultMaterial();
+        //     return;
+        // }
+        // else
+        // {
+        //     tileManager.DeselectAllHexes();
+        //     gameManager.SelectedHexIndex = new Vector2(xIndex, zIndex);
+        //     if(hexMeshRenderer != null)
+        //     {
+        //         SetOutlineToSelectedMaterial();
+        //     }
+        // }
     }
 
     public void SetHexToDefaultMaterial()
@@ -92,7 +74,7 @@ public class Hex : MonoBehaviour, ISelectable, IHoverable
     {
         if (outlineMeshRenderer != null)
         {
-            outlineMeshRenderer.material = defaultMat;
+            outlineMeshRenderer.material = defaultOutlineMat;
         }
     }
 

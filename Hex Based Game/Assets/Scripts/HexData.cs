@@ -8,11 +8,9 @@ public class HexData : MonoBehaviour
     
     public bool doesCollapse = false;
 
-    public int collapseTurnsMax = 5;
-    public int collapseTurnsCurrent;
+    public int collapseTurnsMax = 3;
 
-    void Start() {
-        collapseTurnsCurrent = collapseTurnsMax;
-    }
+    [HideInInspector]
+    public int collapseTurnsCurrent;
 
 }

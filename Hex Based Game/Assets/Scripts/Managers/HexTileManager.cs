@@ -355,12 +355,26 @@ public class HexTileManager : MonoBehaviour
             hex.zIndex = z;
             hex.tileManager = this;
             hexes.Add(new Vector2(x, z), hex);
-            // hex.SetToDefaultMaterial();
+
+            if (go.GetComponent<HexData>())
+            {
+                // set color based on turns remaining before collapse
+                HexData data = go.GetComponent<HexData>();
+                data.collapseTurnsCurrent = data.collapseTurnsMax; // TODO: change this if loading from save
+
+                // this is janky. please fix
+                hex.hexMeshRenderer = hex.gameObject.transform.GetChild(1).gameObject.GetComponent<MeshRenderer>();
+
+                hex.SetHexToCollapseColor(data.collapseTurnsCurrent);
+            } else {
+
+            }
         }
         else 
         {
             Debug.Log("Could not retrieve Hex component from instantiated prefab");
         }   
+
     } 
 
     public void DeselectAllHexes()
